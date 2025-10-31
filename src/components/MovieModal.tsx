@@ -137,7 +137,6 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
                 <h5>Películas relacionadas</h5>
 
                 <div className="d-flex justify-content-center align-items-center flex-wrap gap-3">
-                  {/* Prev button (hidden on mobile) */}
                   <button
                     className="btn btn-outline-secondary btn-sm d-none d-md-block"
                     onClick={goToPrev}
@@ -146,7 +145,6 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
                     ◀
                   </button>
 
-                  {/* Movie cards */}
                   {currentItems.map((rel) => (
                     <div
                       key={rel.id}
@@ -179,7 +177,7 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
                           wordWrap: "break-word",
                           whiteSpace: "normal",
                           lineHeight: "1.1",
-                          minHeight: "3em", // ensures equal height for 2 lines
+                          minHeight: "3em",
                           maxWidth: "100px",
                         }}
                       >
@@ -188,7 +186,6 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
                     </div>
                   ))}
 
-                  {/* Next button (hidden on mobile) */}
                   <button
                     className="btn btn-outline-secondary btn-sm d-none d-md-block"
                     onClick={goToNext}
@@ -198,7 +195,6 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
                   </button>
                 </div>
 
-                {/* Page indicator (hidden on mobile) */}
                 <div className="mt-2 d-none d-md-block">
                   <small>
                     Página {currentPage} de {totalPages}
