@@ -184,3 +184,49 @@
 .santiago-page section h3 {
 	color: #ffffff;
 }
+
+/* === Social Links === */
+.santiago-page .social-links {
+	display: flex;
+	gap: 0.75rem;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.santiago-page .social-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.06);
+	backdrop-filter: blur(2px);
+	padding: 0.5rem 0.9rem;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+	font-weight: 600;
+}
+
+.santiago-page .social-btn i {
+	font-size: 1.1rem;
+}
+
+.santiago-page .social-btn:hover {
+	transform: translateY(-3px) scale(1.02);
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+	border-color: #ffd27f;
+	background: rgba(255, 210, 127, 0.15);
+}
+
+.santiago-page .social-github:hover {
+	box-shadow: 0 8px 18px rgba(255, 255, 255, 0.15);
+}
+
+.santiago-page .social-linkedin:hover {
+	box-shadow: 0 8px 18px rgba(14, 118, 168, 0.35);
+}
+
+.santiago-page .social-discord:hover {
+	box-shadow: 0 8px 18px rgba(88, 101, 242, 0.35);
+}
