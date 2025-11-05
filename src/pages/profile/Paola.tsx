@@ -1,14 +1,10 @@
 import { useRef, useState } from "react";
-import {
-  ActionsBar,
-  List,
-  ProfileCard,
-  Section,
-} from "../../components/CardPaola";
+import { ActionsBar, List, ProfileCard, Section, } from "../../components/CardPaola";
 import MovieModal from "../../components/MovieModal";
 import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";
 import "../../styles/profiles/alvarez.css";
+import Redes from "../../components/Redes";
 
 //FONDOS
 import fondo1 from "../../assets/img/fondoTarjetaAlvarez1.jpg";
@@ -215,8 +211,19 @@ export default function Paola() {
         </div>
       </ProfileCard>
 
-      <footer>
-        <small>© 2025 Tarjeta Personal - Paola Alvarez</small>
+      <footer className="footer">
+        <div className="footer-inner">
+          <section className="footer-left">
+            <h3>Contactame</h3>
+            <Redes
+              github="https://github.com"
+              linkedin="https://www.linkedin.com"
+              discord="https://discord.com"
+            />
+          </section>
+
+          <small className="footer-right">© 2025 Tarjeta Personal - Paola Alvarez</small>
+        </div>
       </footer>
 
       <MovieModal
