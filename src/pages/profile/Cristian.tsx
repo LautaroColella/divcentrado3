@@ -1,7 +1,8 @@
 import React from "react";
 
 import FlipCard from "../../components/CardCristian/FlipCard";
-import SocialGrid from "../../components/CardCristian/SocialGrid";
+//import SocialGrid from "../../components/CardCristian/SocialGrid";
+import Redes from "../../components/Redes";
 import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";
 import styles from "../../styles/profiles/cristian/cristian.module.css";
@@ -81,7 +82,11 @@ export default function Cristian() {
           </FlipCard>
 
           <FlipCard title="Mis Redes">
-            <SocialGrid />
+            <Redes
+                linkedin="https://www.linkedin.com/in/humberto-cristian-paez/"
+                github="https://github.com/crishpaez"
+                discord="https://discord.com/download"
+              />
           </FlipCard>
         </section>
       </section>
