@@ -1,9 +1,6 @@
 import React from "react";
-import "../../styles/profiles/cristian/redes.module.css";
-
 
 import FlipCard from "../../components/CardCristian/FlipCard";
-//import SocialGrid from "../../components/CardCristian/SocialGrid";
 import Redes from "../../components/Redes";
 import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";

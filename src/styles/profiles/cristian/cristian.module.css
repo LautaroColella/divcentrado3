@@ -100,3 +100,86 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* === Redes - Estilos exclusivos de Cristian === */
+:global(#profile-cristian) .social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+/* Botón base con efecto glass */
+:global(#profile-cristian) .social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.2);
+}
+
+:global(#profile-cristian) .social-btn i {
+  font-size: 1.2rem;
+}
+
+/* Hover genérico */
+:global(#profile-cristian) .social-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.4);
+}
+
+/* LinkedIn */
+:global(#profile-cristian) .social-linkedin {
+  border-color: #0077b5;
+}
+:global(#profile-cristian) .social-linkedin:hover {
+  background: rgba(0, 119, 181, 0.25);
+  box-shadow: 0 0 18px rgba(0, 119, 181, 0.6);
+}
+
+/* GitHub */
+:global(#profile-cristian) .social-github {
+  border-color: #cfcfcf;
+}
+:global(#profile-cristian) .social-github:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.4);
+}
+
+/* Discord */
+:global(#profile-cristian) .social-discord {
+  border-color: #5865f2;
+}
+:global(#profile-cristian) .social-discord:hover {
+  background: rgba(88, 101, 242, 0.25);
+  box-shadow: 0 0 20px rgba(88, 101, 242, 0.5);
+}
+
+/* Pequeña animación al hacer click */
+:global(#profile-cristian) .social-btn:active {
+  transform: scale(0.96);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  :global(#profile-cristian) .social-links {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  :global(#profile-cristian) .social-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

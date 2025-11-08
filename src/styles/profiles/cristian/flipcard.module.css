@@ -38,12 +38,16 @@
 }
 
 :global(#profile-cristian) .flipBack {
-  background: #f5f7fa;
-  color: #222;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
   transform: rotateY(180deg);
   flex-direction: column;
   overflow: hidden;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
 }
+
 
 :global(#profile-cristian) .flipBack img {
   max-width: 100%;
