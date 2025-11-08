@@ -1,4 +1,6 @@
 import React from "react";
+import "../../styles/profiles/cristian/redes.module.css";
+
 
 import FlipCard from "../../components/CardCristian/FlipCard";
 //import SocialGrid from "../../components/CardCristian/SocialGrid";
@@ -83,10 +85,10 @@ export default function Cristian() {
 
           <FlipCard title="Mis Redes">
             <Redes
-                linkedin="https://www.linkedin.com/in/humberto-cristian-paez/"
-                github="https://github.com/crishpaez"
-                discord="https://discord.com/download"
-              />
+              linkedin="https://www.linkedin.com/in/humberto-cristian-paez/"
+              github="https://github.com/crishpaez"
+              discord="https://discord.com/users/nsp1455" 
+            />
           </FlipCard>
         </section>
       </section>
