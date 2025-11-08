@@ -147,3 +147,16 @@ src/
 ## Estructura de Archivos 
 
 ![Estructura de archivos](./src/assets/img/estructuraCarpetaArchivos.drawio.png) 
+
+---
+
+## Redes antes 
+
+Decidimos
+
+![Diagrama de arbol](./src/assets/img/RedesAntes.jpeg)
+
+
+## Redes Despues
+![Diagrama de arbol](./src/assets/img/RedesDespues.jpeg)
+
