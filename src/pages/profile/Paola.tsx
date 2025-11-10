@@ -5,6 +5,7 @@ import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";
 import "../../styles/profiles/alvarez.css";
 import Redes from "../../components/Redes";
+import BotonModo from "../../components/BotonModo";
 
 //FONDOS
 import fondo1 from "../../assets/img/fondoTarjetaAlvarez1.jpg";
@@ -136,6 +137,10 @@ export default function Paola() {
 
         {/*Contenido*/}
         <div className="card__content">
+          <Section title="Apariencia">
+            <BotonModo />
+          </Section>
+
           <h1 className="card__title">Alvarez Paola</h1>
 
           <p className="card__meta">

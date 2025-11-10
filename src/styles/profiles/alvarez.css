@@ -1,12 +1,13 @@
+/* Fondo en modo claro por defecto*/
 .paola-scope {
   --bg: #f5f7fb;
   --surface: #ffffff;
   --text: #2c3e50;
   --muted: #6b7a90;
-  --brand: #16a085;
+  --brand: #5e48ad;
   --chip: #324faf;
   --radius: 20px;
-  --shadow: 0 6px 16px rgba(0, 0, 0, .08);
+  --shadow: 0 6px 16px rgba(0, 0, 0, .12);
 
   min-height: 100svh;
   display: grid;
@@ -14,11 +15,30 @@
   color: var(--text);
   font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
 
-
-  background: linear-gradient(145deg, #001f3f 0%, #005f73 50%, #94d2bd 100%);
+  background: radial-gradient(circle at top, #ffffff 0%, #e4e8ff 35%, #cfd8ff 70%, #b9c1ff 100%);
   background-attachment: fixed;
+  transition: background .35s ease, color .35s ease;
+}
+
+.paola-scope.modo-oscuro {
+  --bg: #020817;
+  --surface: #050816;
+  --text: #e6ebff;
+  --muted: #9ca3af;
+  --brand: #8b5cf6;
+  --chip: #4f46e5;
+
+  background:
+    radial-gradient(circle at top, #111827 0%, #020817 40%, #000 100%);
   color: var(--text);
-  min-height: 100vh;
+}
+
+.paola-scope.modo-oscuro .card__meta,
+.paola-scope.modo-oscuro #seleccion-actual,
+.paola-scope.modo-oscuro .presentacion,
+.paola-scope.modo-oscuro .card__section h2,
+.paola-scope.modo-oscuro .card__title {
+  text-shadow: 0 2px 6px rgba(0,0,0,.9);
 }
 
 .paola-scope .card {
@@ -262,7 +282,7 @@
   text-align: right;
 }
 
-/* Botones "Ver info" de la sección Películas Favoritas */
+/*Botones "Ver info" de la sección Películas Favoritas*/
 .paola-scope .card__section ul.list li {
   display: flex;
   align-items: center;
@@ -275,6 +295,29 @@
   font-size: 0.85rem;
   border-radius: 999px;
   box-shadow: none;
+}
+
+/*Botón de modo claro/oscuro*/
+.paola-scope .btn-modo {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  border: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  background: #5e48ad;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,.25);
+  transition: all 0.25s ease;
+}
+
+.paola-scope .btn-modo:hover {
+  transform: scale(1.06);
+  background: linear-gradient(135deg, #5b42f3, #9c6dfd);
 }
 
 /*RESPONSIVE*/
