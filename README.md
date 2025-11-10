@@ -178,7 +178,7 @@ Nos dimos cuenta que le faltaba algun tipo de indentificador para la sidebar ya 
 
 Se ajustaron los media query para que se tenga una mejor vista en Mobile 
 
-![antes media query](./src/assets/img/mediaQueryAntes.png)
+![antes media query](./src/assets/img/mediaqueryAntes.png)
 
 ## 🆕 MediaQuery Despues
 
