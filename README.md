@@ -147,3 +147,34 @@ src/
 ## Estructura de Archivos 
 
 ![Estructura de archivos](./src/assets/img/estructuraCarpetaArchivos.drawio.png) 
+
+---
+
+## Redes antes 
+
+Decidimos como complemento agregar botones que lleven a un medio de contacto (linkedin, Github )
+
+![Diagrama de arbol](./src/assets/img/RedesAntes.jpeg)
+
+
+## Redes Despues
+![Diagrama de arbol](./src/assets/img/RedesDespues.jpeg)
+
+
+## SideBar antes
+Nos dimos cuenta que le faltaba algun tipo de indentificador para la sidebar ya que no se veia, asi que decidimos agregar una barra para que se vea
+![Diagrama de arbol](./src/assets/img/sidebarAntes.png)
+
+
+## SideBar Despues
+
+
+
+## MediaQuery Antes
+
+se ajustaron los media query para que se tenga una mejor vista en Mobile 
+
+![Diagrama de arbol](./src/assets/img/mediaQueryAntes.png)
+
+
+## MediaQuery Despues
