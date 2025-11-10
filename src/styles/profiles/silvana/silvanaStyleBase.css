@@ -1,5 +1,5 @@
 /* -------------
-   BASE CSS 
+   BASE CSS
    ------------- */
 
 
@@ -16,7 +16,8 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: 'Lora', serif; /* Se sobrescribe por modo */
+  font-family: 'Lora', serif;
+  /* Se sobrescribe por modo */
   transition: all 0.5s ease;
   overflow-x: hidden;
   overflow-y: auto;
@@ -57,6 +58,7 @@ main.presentacion {
 /* Frase principal */
 .frase-titulo {
   font-weight: 700;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -143,18 +145,6 @@ main.presentacion {
   line-height: 1.4;
 }
 
-.btn-volver-inferior {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .seccion-central {
@@ -176,4 +166,3 @@ main.presentacion {
     width: 90%;
   }
 }
-

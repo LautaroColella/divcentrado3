@@ -1,5 +1,6 @@
 import * as bootstrap from "bootstrap";
 import { useEffect, useRef, useState } from "react";
+import Circle from "../components/Circle";
 import "../styles/trabajo.css";
 
 export default function Trabajo() {
@@ -232,72 +233,77 @@ export default function Trabajo() {
       });
     });
   }, []);
+  /*
+    Actualmente los tooltips en mobile estan bugueados.
+    Probe varias cosas diferentes para fixearlos, pero es un problema de bootstrap:
+    "Triggering tooltips on hidden elements will not work."
+    "Tooltips must be hidden before their corresponding elements have been removed from the DOM."
+    https://getbootstrap.com/docs/5.0/components/tooltips/
+
+    Logré fixearlo en la página estática pero acá es más dificil por un tema de componentes.
+    Capaz con este useEffect se puede pasar una dependencia al array de forma tal que solo se inicie
+    el tooltip si los iconos existen (display != none), solo si se muestra el contenido del back.
+    Y teniendo en cuenta el estado con useState se podria hacer dispose de los que sigan activos.
+  */
 
   return (
     <div className="d-flex flex-column align-items-center h-100">
       <div id="second-slide-title">
-        <h2>Trabajo y proyecto</h2>
+        <h2>Forma de Trabajo</h2>
       </div>
       <div className="circle-container mt-auto mb-auto">
-        <div
-          className="circle"
+        <Circle
           id="circle-proposito"
-          ref={propositoRef}
+          frontContent="Propósito"
+          backContent="Buscamos crear una página que muestre lo que aprendimos y cómo trabajamos juntos"
           onClick={handlePropositoClick}
-        >
-          <div className="circle-front" ref={propositoFrontRef}>
-            Propósito
-          </div>
-          <div className="circle-back" ref={propositoBackRef}>
-            Buscamos crear una página que muestre lo que aprendimos y cómo
-            trabajamos juntos
-          </div>
-        </div>
+          ref={propositoRef}
+          frontRef={propositoFrontRef}
+          backRef={propositoBackRef}
+        />
 
-        <div
-          className="circle"
+        <Circle
           id="circle-valores"
-          ref={valoresRef}
+          frontContent="Valores"
+          backContent={
+            <>
+              <i
+                className="fa-solid fa-graduation-cap"
+                data-bs-toggle="tooltip"
+                title="Aprendemos mientras diseñamos y programamos, mejorando nuestras habilidades"
+              ></i>
+              <i
+                className="fa-solid fa-calendar-check"
+                data-bs-toggle="tooltip"
+                title="Nos aseguramos de cumplir con los plazos y mantener la calidad del trabajo"
+              ></i>
+              <i
+                className="fa-solid fa-handshake"
+                data-bs-toggle="tooltip"
+                title="Colaboramos para que cada parte del proyecto funcione a la perfección"
+              ></i>
+              <i
+                className="fa-solid fa-lightbulb"
+                data-bs-toggle="tooltip"
+                title="Buscamos ideas originales para que la página sea visual y atractiva"
+              ></i>
+            </>
+          }
           onClick={handleValoresClick}
-        >
-          <div className="circle-front">Valores</div>
-          <div className="circle-back">
-            <i
-              className="fa-solid fa-graduation-cap"
-              data-bs-toggle="tooltip"
-              title="Aprendemos mientras diseñamos y programamos, mejorando nuestras habilidades"
-            ></i>
-            <i
-              className="fa-solid fa-calendar-check"
-              data-bs-toggle="tooltip"
-              title="Nos aseguramos de cumplir con los plazos y mantener la calidad del trabajo"
-            ></i>
-            <i
-              className="fa-solid fa-handshake"
-              data-bs-toggle="tooltip"
-              title="Colaboramos para que cada parte del proyecto funcione a la perfección"
-            ></i>
-            <i
-              className="fa-solid fa-lightbulb"
-              data-bs-toggle="tooltip"
-              title="Buscamos ideas originales para que la página sea visual y atractiva"
-            ></i>
-          </div>
-        </div>
-        <div
-          className="circle"
+          ref={valoresRef}
+          frontRef={undefined}
+          backRef={undefined}
+        />
+
+        <Circle
           id="circle-metodo"
-          ref={metodoRef}
+          frontContent="Método"
+          backContent="Trabajamos juntos dividiendo tareas, revisando cada sección y asegurando que la página sea funcional y atractiva"
           onClick={handleMetodoClick}
-        >
-          <div className="circle-front" ref={metodoFrontRef}>
-            Método
-          </div>
-          <div className="circle-back" ref={metodoBackRef}>
-            Trabajamos juntos dividiendo tareas, revisando cada sección y
-            asegurando que la página sea funcional y atractiva
-          </div>
-        </div>
+          ref={metodoRef}
+          frontRef={metodoFrontRef}
+          backRef={metodoBackRef}
+        />
       </div>
     </div>
   );

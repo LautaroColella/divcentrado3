@@ -1,106 +1,108 @@
-html, body {
-	overflow-x: hidden; /* para evitar el scroll horizontal */
+.santiago-page {
+	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
-  }
+}
 
 
-#particles-js{
-	background-color:black;
-	position: fixed;   /* siempre cubre toda la pantalla */
+.santiago-page #particles-js {
+	background-color: black;
+	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100vw;      /* ancho total de la ventana */
-	height: 100vh;     /* alto total de la ventana */
-	z-index: 1;        /* permite interacción con las partículas */
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
 	margin: 0;
 	padding: 0;
 	pointer-events: auto;
-  }
-  
+}
 
-  body{
-	color: white;
-  }
 
-  /* Asegurar que el contenido sea clickeable sobre las partículas */
-  header, main, footer {
+/* text color unified later */
+
+
+.santiago-page header,
+.santiago-page main,
+.santiago-page footer {
 	position: relative;
 	z-index: 2;
 	pointer-events: auto;
-  }
+}
 
-  /* Asegurar que el canvas de las partículas sea interactivo */
-  #particles-js canvas {
+
+.santiago-page #particles-js canvas {
 	pointer-events: auto;
-  }
+}
 
-  
 
-header {
+
+.santiago-page header {
 	text-align: center;
 	padding: 2rem 1rem;
-  }
-  
-  header h1 {
+	margin-top: 1rem;
+}
+
+.santiago-page header h1 {
 	font-size: 2.5rem;
-	color: white ;
+	color: white;
 	margin-bottom: 0.5rem;
 	font-family: "Jersey 15", sans-serif;
-  }
-  
-  header h2 {
+}
+
+.santiago-page header h2 {
 	font-size: 1.2rem;
 	color: #ddd;
 	font-weight: 400;
-  }
-  
-  #hi {
+}
+
+.santiago-page #hi {
 	width: 80px;
 	vertical-align: middle;
-  }
-  
-  #icon {
+}
+
+.santiago-page #icon {
 	margin-top: 1rem;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 	border: 3px solid #ffb347;
 	object-fit: cover;
- 	background-color: black;
-  }
-  
-  /* === MAIN === */
-  main {
+	background-color: black;
+}
+
+/* === MAIN === */
+.santiago-page main {
 	max-width: 900px;
 	margin: auto;
 	padding: 2rem 1rem;
-  }
-  
-  section {
+}
+
+.santiago-page section {
 	background: rgba(255, 255, 255, 0.05);
 	border-radius: 12px;
 	padding: 1.5rem;
 	margin-bottom: 2rem;
-	box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  }
-  
-  section h2, section h3 {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.santiago-page section h2,
+.santiago-page section h3 {
 	margin-bottom: 1rem;
 	color: #ffb347;
 	font-family: "Jersey 15", sans-serif;
-  }
-  
-  ul {
+}
+
+.santiago-page ul {
 	list-style-type: square;
 	margin-left: 1.5rem;
-  }
-  
-  ul li {
-	margin-bottom: 0.5rem;
-  }
+}
 
-  #btn-home{
+.santiago-page ul li {
+	margin-bottom: 0.5rem;
+}
+
+.santiago-page #btn-home {
 	color: #ddd;
 	background-color: black;
 	border: 2px solid #ffffff;
@@ -115,7 +117,7 @@ header {
 	font-family: "Jersey 15", sans-serif;
 }
 
-#btn-home:hover {
+.santiago-page #btn-home:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border-color: #050300;
 	color: #ffd27f;
@@ -123,47 +125,62 @@ header {
 	box-shadow: 0 4px 8px red;
 }
 
-  
-  /* === IMÁGENES === */
-  .img {
+
+
+.santiago-page .img {
 	display: block;
 	margin: 1rem auto;
 	max-width: 250px;
 	border-radius: 10px;
-	box-shadow: 0 3px 8px rgba(0,0,0,0.4);
-  }
-  
-  /* === LINKS === */
-  a {
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.santiago-page a {
 	color: #ffb347;
 	text-decoration: none;
 	transition: 0.3s;
-  }
-  
-  a:hover {
+}
+
+.santiago-page a:hover {
 	text-decoration: underline;
 	color: #ffd27f;
-  }
-  
-  
-  /* === RESPONSIVE === */
-  @media (max-width: 600px) {
-	header h1 {
-	  font-size: 2rem;
+}
+
+
+/* === RESPONSIVE === */
+@media (max-width: 600px) {
+	.santiago-page header h1 {
+		font-size: 2rem;
 	}
-  
-	#icon {
-	  width: 90px;
-	  height: 90px;
+
+	.santiago-page #icon {
+		width: 90px;
+		height: 90px;
 	}
-  
-	.img {
-	  max-width: 180px;
+
+	.santiago-page .img {
+		max-width: 180px;
 	}
-  }
-  .jersey-15-regular {
+}
+
+.santiago-page .jersey-15-regular {
 	font-family: "Jersey 15", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-  }
-  
+}
+
+/* Force all text to white on Santiago page */
+.santiago-page,
+.santiago-page * {
+	color: #ffffff;
+}
+
+.santiago-page a,
+.santiago-page a:hover,
+.santiago-page #btn-home,
+.santiago-page header h2,
+.santiago-page section h2,
+.santiago-page section h3 {
+	color: #ffffff;
+}

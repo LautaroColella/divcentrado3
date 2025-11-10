@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "title": "NextHire - Devs",
+    "description": "A través de este proyecto buscamos consolidar competencias técnicas, fomentar el trabajo en equipo y sentar las bases para nuestra futura inserción en la industria tecnológica.",
+    "developers": [
+      {
+        "name": "Hernan Andrés Burgos ",
+        "github": "https://github.com/burgosha"
+      },
+      {
+        "name": "Nicolás Chiovetta",
+        "github": "https://github.com/nicochiove"
+      },
+      {
+        "name": "Adrián Agustín Leroy Delgado",
+        "github": "https://github.com/DragonesMagicos"
+      },
+      { "name": "Leonel Donnet", "github": "https://github.com/LeonelDonnet" },
+      { "name": "Luisina Muller", "github": "https://github.com/luisimuller" }
+    ],
+    "github_link": "https://github.com/luisimuller/TP1-Para-Entregar.git",
+    "deploy_link": "https://ifts29-frontend2025-coma-grupo1-tp1.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/u8BDPAS.png",
+      "https://i.imgur.com/LbcTirw.png",
+      "https://i.imgur.com/rzQDp8h.png",
+      "https://i.imgur.com/P4yzBWI.png",
+      "https://i.imgur.com/yqPDs2Y.png",
+      "https://i.imgur.com/W3wfpJR.png",
+      "https://i.imgur.com/sBQZuFe.png"
+    ],
+    "finish_date": "2025-09-21"
+  },
+  {
+    "id": 2,
+    "title": "GRUPO DOS",
+    "description": "El objetivo es aplicar HTML, CSS y JavaScript en la construcción de un sitio con diseño adaptable y funciones dinámicas que enriquezcan la experiencia del usuario.",
+    "developers": [
+      {
+        "name": "Daniel Ignacio Córdoba",
+        "github": "https://github.com/Kayjura"
+      },
+      { "name": "Cecilia Gómez", "github": "https://github.com/cesugomez" },
+      {
+        "name": "Mariela Belén Giménez",
+        "github": "https://github.com/BelenGz"
+      },
+      { "name": "Eugenia Lucchelli", "github": "https://github.com/eugelu11" },
+      { "name": "Román Ríos", "github": "https://github.com/romanrios" }
+    ],
+    "github_link": "https://github.com/romanrios/ifts-front-tp1",
+    "deploy_link": "https://ifts-front-tp1.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/QNt3lct.png",
+      "https://i.imgur.com/yI8TkYl.jpeg",
+      "https://i.imgur.com/5lOAbQC.png",
+      "https://i.imgur.com/MIvwWDR.jpeg",
+      "https://i.imgur.com/KGDWmho.png",
+      "https://i.imgur.com/Ihtl2Zj.png",
+      "https://i.imgur.com/ztnAkYW.png"
+    ],
+    "finish_date": "2025-09-20"
+  },
+  {
+    "id": 3,
+    "title": "Grupo 3",
+    "description": "Nuestro objetivo es crear un sitio organizado, responsive y con interactividad usando HTML, CSS y JavaScript.",
+    "developers": [
+      { "name": "Germán", "github": "https://github.com/germanberisso" },
+      { "name": "Juan", "github": "https://github.com/juandualibe" },
+      { "name": "Manuel", "github": "https://github.com/jmgasbarro" },
+      { "name": "Nicolas", "github": "https://github.com/NicolasWeibel" }
+    ],
+    "github_link": "https://github.com/germanberisso/FrontendTP01",
+    "deploy_link": "https://frontend-tp-01-pink.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
+    "screenshots": [
+      "https://i.imgur.com/kJB5agf.png",
+      "https://i.imgur.com/NFXL2lZ.png",
+      "https://i.imgur.com/V3ZCq8X.png",
+      "https://i.imgur.com/FYUuYDo.png",
+      "https://i.imgur.com/LkEAi2F.png",
+      "https://i.imgur.com/RuBJ3mf.png",
+      "https://i.imgur.com/Ef2ftl6.png",
+      "https://i.imgur.com/fxSiCSO.png",
+      "https://i.imgur.com/6LrDrGR.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 5,
+    "title": "LegoDEVS",
+    "description": "Somos un equipo de desarolladores apasionados por crear y aprender juntos.",
+    "developers": [
+      {
+        "name": "Juan Schallmoser",
+        "github": "https://github.com/SchallmoserJuan"
+      },
+      { "name": "Sofía Trucco", "github": "https://github.com/SofiTrucco" },
+      {
+        "name": "Carlos Enrique Gez",
+        "github": "https://github.com/gezcarlos22"
+      },
+      { "name": "Nahir Icare", "github": "https://github.com/FoxyDevSolution" },
+      {
+        "name": "Rodrigo Chico",
+        "github": "https://github.com/rodrigochico2023"
+      }
+    ],
+    "github_link": "https://github.com/SchallmoserJuan/LegoDevs",
+    "deploy_link": "https://lego-devs.vercel.app/index.html",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "FontAwesome",
+      "Google Fonts"
+    ],
+    "screenshots": [
+      "https://i.imgur.com/bpktRj6.png",
+      "https://i.imgur.com/DhjYatX.png",
+      "https://i.imgur.com/TvPHIkO.png",
+      "https://i.imgur.com/XVW98zT.png",
+      "https://i.imgur.com/Ve3eC1g.png",
+      "https://i.imgur.com/bR09C20.png",
+      "https://i.imgur.com/biU9oIP.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 6,
+    "title": "Codebolts Six",
+    "description": "Creamos una página web que combina elegancia y funcionalidad para permitir a los visitantes descubrir más sobre cada uno de nosotros.",
+    "developers": [
+      {
+        "name": "Carina Rodrigues",
+        "github": "https://github.com/CariRodrigues"
+      },
+      {
+        "name": "Eduardo Mendiola",
+        "github": "https://github.com/eduardo-mendiola"
+      },
+      { "name": "Neuyin Herrera", "github": "https://github.com/Neuyin" },
+      { "name": "Romero Erick", "github": "https://github.com/Tempestblood" }
+    ],
+    "github_link": "https://github.com/CariRodrigues/Frontend2025",
+    "deploy_link": "https://frontend2025-five.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "ChatGPT"],
+    "screenshots": [
+      "https://i.imgur.com/hsMJPRH.png",
+      "https://i.imgur.com/QONS3dA.png",
+      "https://i.imgur.com/2NsGbZ1.jpeg",
+      "https://i.imgur.com/HVDc75w.jpeg",
+      "https://i.imgur.com/NnVMKLK.png",
+      "https://i.imgur.com/9C6a6wW.png"
+    ],
+    "finish_date": "2025-10-06"
+  },
+  {
+    "id": 7,
+    "title": "Grupo 7 - Frontend",
+    "description": "Somos un grupo de estudiantes enfocados en el desarrollo frontend, con el objetivo de crear soluciones web modernas y funcionales.",
+    "developers": [
+      { "name": "Iván Luis Leiva", "github": "https://github.com/illeiva2" },
+      { "name": "Laura Vivan", "github": "https://github.com/Lauce" },
+      {
+        "name": "Matías Gonzalo Paz",
+        "github": "https://github.com/Gonzalopaz41"
+      },
+      { "name": "Romina Gargano", "github": "https://github.com/RominaGG" },
+      { "name": "Ignacio Toledo Roll", "github": "https://github.com/ignatole" }
+    ],
+    "github_link": "https://github.com/ignatole/primera-entrega-fe",
+    "deploy_link": "https://primera-entrega-fe.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "screenshots": [
+      "https://i.imgur.com/3NOtJ6h.png",
+      "https://i.imgur.com/qruX254.png",
+      "https://i.imgur.com/EKBET5S.png",
+      "https://i.imgur.com/01DKIM4.png",
+      "https://i.imgur.com/VYMAqD8.png",
+      "https://i.imgur.com/o3sATmW.png",
+      "https://i.imgur.com/ibd0YDE.png",
+      "https://i.imgur.com/pF7Q0Xf.png"
+    ],
+    "finish_date": "2025-09-20"
+  },
+  {
+    "id": 8,
+    "title": "TPG01 - Grupo 8",
+    "description": "Somos un grupo de estudiantes dedicados a crear soluciones web innovadoras y funcionales.",
+    "developers": [
+      {
+        "name": "Franco Perrone Rey",
+        "github": "https://github.com/fraperrone"
+      },
+      {
+        "name": "Carlos Sebastian Gauto",
+        "github": "https://github.com/23carlosg"
+      },
+      { "name": "Guillermo Kopacek", "github": "https://github.com/Gkopacek" },
+      {
+        "name": "Paula Núñez Cresto",
+        "github": "https://github.com/PaulaNCresto"
+      }
+    ],
+    "github_link": "https://github.com/fraperrone/TPG01-Front-Grupo8",
+    "deploy_link": "https://tpg-01-front-grupo8.vercel.app/index.html",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/wqmy0cL.png",
+      "https://i.imgur.com/GD9v5Dt.png",
+      "https://i.imgur.com/4QjUN43.png",
+      "https://i.imgur.com/RMtyIab.png",
+      "https://i.imgur.com/vrLl6ok.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 9,
+    "title": "Equipo Innovador",
+    "description": "Este proyecto consiste en el desarrollo de un sitio web responsivo y moderno para presentar a nuestro equipo de trabajo 'Equipo Innovador'.",
+    "developers": [
+      { "name": "Lucas", "github": "https://github.com/tarantinolucas" },
+      { "name": "Victoria", "github": "https://github.com/visob" },
+      {
+        "name": "Sebastián",
+        "github": "https://github.com/MSebastianGutierrez"
+      },
+      { "name": "Jose", "github": "https://github.com/josecolombotk" },
+      { "name": "Estiven", "github": "https://github.com/Estivenfs" }
+    ],
+    "github_link": "https://github.com/Estivenfs/desarrollo-frontend-ifts29",
+    "deploy_link": "https://grupo-9-desarrollo-frontend-ifts29.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/bSuIkrH.png",
+      "https://i.imgur.com/S2qhv0l.png",
+      "https://i.imgur.com/aZkDtsO.jpeg",
+      "https://i.imgur.com/gymbJsC.png",
+      "https://i.imgur.com/mzjW5Ob.jpeg",
+      "https://i.imgur.com/zYci8sE.png",
+      "https://i.imgur.com/wdxQUvQ.png",
+      "https://i.imgur.com/IzyReva.jpeg"
+    ],
+    "finish_date": "2025-09-17"
+  },
+  {
+    "id": 10,
+    "title": "Grupazo",
+    "description": "El objetivo del proyecto es practicar el uso de HTML, CSS y JavaScript para construir un sitio web navegable, con diseño atractivo y adaptable a distintos dispositivos.",
+    "developers": [
+      { "name": "Pablo Combis", "github": "https://github.com/Pablo-Damian" },
+      { "name": "Martin Comito", "github": "https://github.com/martincomito" },
+      { "name": "Camila Cuns", "github": "https://github.com/MilaCuns" },
+      { "name": "Lucrecia Pedraza", "github": "https://github.com/lucre-ph" },
+      {
+        "name": "Leandro Seoane",
+        "github": "https://github.com/LeandroSeoane123"
+      }
+    ],
+    "github_link": "https://github.com/lucre-ph/FrontEndIFTS",
+    "deploy_link": "https://front-end-ifts.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/5JkhFfW.png",
+      "https://i.imgur.com/UFRBIWT.png",
+      "https://i.imgur.com/HLKtaqs.png",
+      "https://i.imgur.com/ttpObpJ.png",
+      "https://i.imgur.com/0Qiq62l.png",
+      "https://i.imgur.com/Faa462d.png",
+      "https://i.imgur.com/xqWOYgZ.png",
+      "https://i.imgur.com/own3Ewk.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 11,
+    "title": "TechVerse",
+    "description": "La propuesta estética se inspira en un multiverso digital retro-futurista, donde cada integrante presenta su perfil con un estilo propio.",
+    "developers": [
+      { "name": "Leandro", "github": "https://github.com/xxiicode" },
+      { "name": "Maria", "github": "https://github.com/Mariaredes" },
+      { "name": "Martin", "github": "https://github.com/Nitramgg" },
+      { "name": "Micaela", "github": "https://github.com/micakn" },
+      { "name": "Paula", "github": "https://github.com/paulabeni" }
+    ],
+    "github_link": "https://github.com/xxiicode/grupo11-front-ifts-comA",
+    "deploy_link": "https://frontg11com-aifts25.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "screenshots": [
+      "https://i.imgur.com/wDMBVFk.png",
+      "https://i.imgur.com/zeIWDAN.png",
+      "https://i.imgur.com/bncfJlt.jpeg",
+      "https://i.imgur.com/QpO7c3I.png",
+      "https://i.imgur.com/YL3aPpo.png",
+      "https://i.imgur.com/ZCK0pPO.png",
+      "https://i.imgur.com/RWsdRFl.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 12,
+    "title": "Retro 12",
+    "description": "Nuestro sitio trata de plasmar de una forma 'retro' nuestras habilidades sobre HTML, CSS y Javascript, creando una portada con enlaces a la página de cada uno de los integrante.",
+    "developers": [
+      { "name": "Ana", "github": "https://github.com/Ana-Galvez" },
+      { "name": "Virginia", "github": "https://github.com/VirginiaCardoso" },
+      { "name": "Álvaro", "github": "https://github.com/af-coronel" },
+      { "name": "Tomás ", "github": "https://github.com/TomasResquin" },
+      { "name": "Jessica", "github": "https://github.com/Jessicaoleszuk" }
+    ],
+    "github_link": "https://github.com/Ana-Galvez/TP1-FRONT-END",
+    "deploy_link": "https://tp1-front-end-grupo12.vercel.app",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Google Fonts",
+      "Hydra-synth"
+    ],
+    "screenshots": [
+      "https://i.imgur.com/F6TndpZ.png",
+      "https://i.imgur.com/hF0FJgQ.png",
+      "https://i.imgur.com/LPH7tgx.png",
+      "https://i.imgur.com/FsiNrPe.png",
+      "https://i.imgur.com/HKZe9Cs.png",
+      "https://i.imgur.com/y3hsQH1.png",
+      "https://i.imgur.com/5CPphaO.png"
+    ],
+    "finish_date": "2025-09-18"
+  },
+  {
+    "id": 13,
+    "title": "Grupo 13",
+    "description": "Cada integrante ha creado su página personal con su temática favorita, aplicando las mejores prácticas de desarrollo frontend.",
+    "developers": [
+      { "name": "Marcos", "github": "https://github.com/MarcosMartinProgram" },
+      { "name": "Cecilia", "github": "https://github.com/lumineida" },
+      { "name": "Mariano", "github": "https://github.com/Mariano-Javier" },
+      { "name": "Julian", "github": "https://github.com/jbenitez79" }
+    ],
+    "github_link": "https://github.com/jbenitez79/DSW-grupo13",
+    "deploy_link": "https://dsw-grupo13-kappa.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
+    "screenshots": [
+      "https://i.imgur.com/MHDjdSy.png",
+      "https://i.imgur.com/pB5vK24.png",
+      "https://i.imgur.com/7nVWRvH.png",
+      "https://i.imgur.com/JJOKkyU.png",
+      "https://i.imgur.com/MwEW6B0.png",
+      "https://i.imgur.com/iMtlHbi.png",
+      "https://i.imgur.com/z8oaoJZ.png",
+      "https://i.imgur.com/9NiDFQx.png",
+      "https://i.imgur.com/UfY7cOV.png"
+    ],
+    "finish_date": "2025-09-21"
+  },
+  {
+    "id": 14,
+    "title": "Grupo 14",
+    "description": "Como grupo estamos entusiasmados por aprender a utilizar nuevas tecnologias. Es por eso que desarrollamos este sitio web colaborativo.",
+    "developers": [
+      {
+        "name": "Leandro Ezequiel Aballone",
+        "github": "https://github.com/Lean-Aballone"
+      },
+      {
+        "name": "Erika Johana Cruz Vallejo",
+        "github": "https://github.com/ErikaCV"
+      },
+      {
+        "name": "Mariano Fabian Gonzalez",
+        "github": "https://github.com/MarianoFabian"
+      },
+      { "name": "Gonzalo Villafañe", "github": "https://github.com/YBuenaGit" }
+    ],
+    "github_link": "https://github.com/Lean-Aballone/TPFront_1",
+    "deploy_link": "https://tp-front-1.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "screenshots": [
+      "https://i.imgur.com/efNJrDv.png",
+      "https://i.imgur.com/SoKPzVA.png",
+      "https://i.imgur.com/fRmKdHG.png",
+      "https://i.imgur.com/r7iZefh.png",
+      "https://i.imgur.com/Kaqk2LO.png",
+      "https://i.imgur.com/CHdhbC0.jpeg"
+    ],
+    "finish_date": "2025-09-24"
+  },
+  {
+    "id": 15,
+    "title": "Game of Thrones",
+    "description": "El sitio presenta al Grupo 15 bajo la temática de Game of Thrones, incluyendo una portada principal, una bitácora del proyecto y páginas individuales.",
+    "developers": [
+      {
+        "name": "Martin Caceres",
+        "github": "https://github.com/martincaceres2"
+      },
+      {
+        "name": "Gerardo Fabián Quispe",
+        "github": "https://github.com/Gefq2021"
+      },
+      { "name": "Rocio Pesqueira", "github": "https://github.com/rocio883" },
+      {
+        "name": "Nicolas Francisco Garay Lucena",
+        "github": "https://github.com/Nicolas40000"
+      }
+    ],
+    "github_link": "https://github.com/Gefq2021/TP1-FrontEnd-Grupo15",
+    "deploy_link": "https://grupo15-tp1.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/FRsoxRC.png",
+      "https://i.imgur.com/xDCL1Go.png",
+      "https://i.imgur.com/u5O5Mg6.png"
+    ],
+    "finish_date": "2025-09-26"
+  },
+  {
+    "id": 16,
+    "title": "Reactivos",
+    "description": "El enfoque de este proyecto es darnos a conocer con nuestros compañeros y crecer como profesionales mientras participamos durante el proyecto.",
+    "developers": [
+      { "name": "Avalos", "github": "https://github.com/sanavalos" },
+      { "name": "Facundo", "github": "https://github.com/FacundoAreo" },
+      { "name": "Paguaga", "github": "https://github.com/SantiagoNoelPaguaga" },
+      { "name": "Aixa", "github": "https://github.com/AixHadzi" },
+      { "name": "Ivanna", "github": "https://github.com/Garudine" }
+    ],
+    "github_link": "https://github.com/sanavalos/dswf-tp1-grupo16",
+    "deploy_link": "https://front-reactivos.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/ioYL5LJ.png",
+      "https://i.imgur.com/j1StOGy.png",
+      "https://i.imgur.com/UdWtLpt.png",
+      "https://i.imgur.com/uOQm3Io.png",
+      "https://i.imgur.com/QkAUuAP.png",
+      "https://i.imgur.com/SnYEY4H.png",
+      "https://i.imgur.com/oELo2aS.png"
+    ],
+    "finish_date": "2025-09-27"
+  },
+  {
+    "id": 17,
+    "title": "Grupo 17",
+    "description": "Este sitio es nuestra entrega grupal.",
+    "developers": [
+      { "name": "Facundo", "github": "https://github.com/fazcue" },
+      { "name": "Emiliano", "github": "https://github.com/Emi-nz" },
+      { "name": "Gabriela", "github": "https://github.com/GabyA0714" },
+      { "name": "Belén", "github": "https://github.com/belencantarini" },
+      { "name": "Damián", "github": "https://github.com/damiangdl" }
+    ],
+    "github_link": "https://github.com/GabyA0714/TP_01_PROYECTO_EQUIPO_COMPLETO.git",
+    "deploy_link": "https://tp-01-proyecto-equipo-completo-seven.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "screenshots": [
+      "https://i.imgur.com/CC96NwI.png",
+      "https://i.imgur.com/LYuE9zj.png",
+      "https://i.imgur.com/CRV43yC.png"
+    ],
+    "finish_date": "2025-09-22"
+  },
+  {
+    "id": 18,
+    "title": "Babys",
+    "description": "Estamos iniciando nuestro camino en el mundo del desarrollo de software y esperamos seguir avanzando semana a semana",
+    "developers": [
+      { "name": "Verónica", "github": "https://github.com/veroguerraf" },
+      { "name": "Pedro", "github": "https://github.com/PedroLuis1089" }
+    ],
+    "github_link": "https://github.com/PedroLuis1089/TP1_GRUPO18_GUERRA_BRICENO.git",
+    "deploy_link": "https://tp1-grupo18-guerra-briceno.vercel.app",
+    "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
+    "screenshots": [
+      "https://i.imgur.com/qqJ2mBP.png",
+      "https://i.imgur.com/xbarJnG.png",
+      "https://i.imgur.com/jFgzFVB.png",
+      "https://i.imgur.com/TUSrsDm.png"
+    ],
+    "finish_date": "2025-09-26"
+  }
+]

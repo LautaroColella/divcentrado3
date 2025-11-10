@@ -1,0 +1,31 @@
+:global(#profile-cristian) .socialGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+:global(#profile-cristian) .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(#profile-cristian) .social img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+:global(#profile-cristian) .social img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+@media (max-width: 400px) {
+  :global(#profile-cristian) .socialGrid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

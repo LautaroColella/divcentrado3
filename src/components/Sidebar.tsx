@@ -3,9 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/sidebar.css";
 
 const secciones = [
-  { nombre: "Portada", ruta: "/portada" },
-  { nombre: "Trabajo y Proyecto", ruta: "/trabajo" },
+  { nombre: "Portada", ruta: "/nombre" },
+  { nombre: "Trabajo", ruta: "/trabajo" },
   { nombre: "Bitácora", ruta: "/bitacora" },
+  { nombre: "Proyectos", ruta: "/proyectos" },
 ];
 
 const perfiles = [
@@ -24,12 +25,12 @@ export default function Sidebar() {
     const handleMouseMove = (e: MouseEvent) => {
       const barra = document.querySelector(".barra-superior")?.getBoundingClientRect();
       const estaSobreBarra = barra && e.clientY <= barra.bottom;
-      setVisible(e.clientY < 10 || !!estaSobreBarra);
+      setVisible(e.clientY < 30 || !!estaSobreBarra);
     };
 
     const handleTouchStart = (e: TouchEvent) => {
       const touchY = e.touches[0].clientY;
-      if (touchY < 10) setVisible(true);
+      if (touchY < 30) setVisible(true);
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -41,21 +42,27 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <header className={`barra-superior ${visible ? "visible" : ""}`}>
-      <nav>
-        <ul className="barra-lista">
-          {[...secciones, ...perfiles].map((item, i) => (
-            <li key={i}>
-              <Link
-                to={item.ruta}
-                className={location.pathname === item.ruta ? "activo" : ""}
-              >
-                {item.nombre}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+    <>
+      {/* Línea azul con destello */}
+      <div className="linea-destello" />
+
+      {/* Barra superior */}
+      <div className={`barra-superior ${visible ? "visible" : ""}`}>
+        <nav>
+          <ul className="barra-lista">
+            {[...secciones, ...perfiles].map((item, i) => (
+              <li key={i}>
+                <Link
+                  to={item.ruta}
+                  className={location.pathname === item.ruta ? "activo" : ""}
+                >
+                  {item.nombre}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </>
   );
 }

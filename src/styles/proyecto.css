@@ -1,0 +1,41 @@
+#projects-container {
+	max-width: 70%;
+	max-height: 85vh;
+	overflow-y: auto;
+}
+
+#projects-container::-webkit-scrollbar {
+	width: 8px;
+}
+
+#projects-container::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
+#projects-container h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+
+#projects-container .card {
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#projects-container .card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#projects-container .card-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+
+#projects-container .card-text,
+#projects-container li,
+#projects-container p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 0.95rem;
+}

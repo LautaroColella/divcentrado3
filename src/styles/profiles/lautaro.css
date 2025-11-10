@@ -1,8 +1,5 @@
-body {
-	margin-top: 10px;
-}
-
 .profile-card {
+	margin: 10px 0;
 	width: 22rem;
 	border-radius: 1rem;
 	overflow: hidden;
