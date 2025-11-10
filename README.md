@@ -147,3 +147,46 @@ src/
 ## Estructura de Archivos 
 
 ![Estructura de archivos](./src/assets/img/estructuraCarpetaArchivos.drawio.png) 
+
+---
+
+## Redes antes 
+
+Decidimos como complemento agregar botones que lleven a un medio de contacto como linkedin, Github o discord (ejemplo en pagina de Santiago) 
+
+![Redes antes](./src/assets/img/RedesAntes.jpeg)
+
+
+## 🆕 Redes Despues
+![Redes Despues](./src/assets/img/RedesDespues.jpeg)
+
+
+## SideBar antes
+Nos dimos cuenta que le faltaba algun tipo de indentificador para la sidebar ya que no se veia, asi que decidimos agregar una barra para que se vea
+![sidebar antes](./src/assets/img/sidebarAntes.png)
+
+
+## 🆕 SideBar Despues
+
+![mejora sidebar](./src/assets/img/sidebarDespues.png)
+
+## MediaQuery Antes
+
+se ajustaron los media query para que se tenga una mejor vista en Mobile 
+
+![antes media query](./src/assets/img/mediaQueryAntes.png)
+
+
+## 🆕 MediaQuery Despues
+
+![Mejora mediaQuery](./src/assets/img/mediaQueryDespues.png)
+
+## Equipos antes
+
+Se realizo una mejora en la zona de Proyectos de los equipos, agregando un boton 'ORDENAR POR' que filtra los proyectos por fecha, nombre o equipo
+
+![Equipos antes](./src/assets/img/equiposAntes.png)
+
+## 🆕 Equipos Despues
+
+![Equipos Despues](./src/assets/img/equiposDespues2.png)
