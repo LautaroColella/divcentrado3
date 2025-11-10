@@ -176,13 +176,13 @@ Nos dimos cuenta que le faltaba algun tipo de indentificador para la sidebar ya 
 
 ## MediaQuery Antes
 
-se ajustaron los media query para que se tenga una mejor vista en Mobile 
+Se ajustaron los media query para que se tenga una mejor vista en Mobile 
 
 ![antes media query](./src/assets/img/mediaQueryAntes.png)
 
 ## 🆕 MediaQuery Despues
 
-![Mejora mediaQuery](./src/assets/img/mediaQueryDespues.png)
+![Mejora mediaQuery](./src/assets/img/mediaqueryDespues.png)
 
 ---
 
@@ -190,7 +190,7 @@ se ajustaron los media query para que se tenga una mejor vista en Mobile
 
 Se realizo una mejora en la zona de Proyectos de los equipos, agregando un boton 'ORDENAR POR' que filtra los proyectos por fecha, nombre o equipo
 
-![Equipos antes](./src/assets/img/equiposAntes.png)
+![Equipos antes](./src/assets/img/equiposAntes1.png)
 
 ## 🆕 Equipos Despues
 
