@@ -227,112 +227,125 @@
 	font-size: 0.9vw;
 }
 
-@media (min-width: 400px) {
-	#second-slide-title>h2 {
-		font-size: 8vw;
-	}
+/* Mobile: hasta 599px */
+@media (max-width: 599px) {
+  #second-slide-title > h2 {
+    font-size: 9vw;
+    text-align: center;
+  }
 
-	.circle-container {
-		flex-direction: column;
-		row-gap: 20px;
-	}
+  .circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
 
-	.circle {
-		width: 150px;
-		height: 150px;
-		font-size: 20px;
-	}
+  .circle {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
 
-	#circle-proposito .circle-back {
-		font-size: 12px;
-	}
+  #circle-proposito .circle-back {
+    font-size: 12px;
+  }
 
-	#circle-metodo .circle-back {
-		font-size: 10px;
-	}
+  #circle-metodo .circle-back {
+    font-size: 10px;
+  }
 
-	#circle-valores {
-		margin-bottom: 0;
-	}
+  #circle-valores {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #circle-proposito,
+  #circle-metodo {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
+/* Tablet: desde 600px */
 @media (min-width: 600px) {
-	#second-slide-title>h2 {
-		font-size: 7vw;
-	}
+  #second-slide-title > h2 {
+    font-size: 7vw;
+  }
 
-	.circle-container {
-		flex-direction: row;
-		row-gap: 0;
-	}
+  .circle-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+  }
 
-	.circle-container>.circle {
-		flex: 0 0 auto;
-	}
+  .circle {
+    width: 25vw;
+    height: 25vw;
+    font-size: 3vw;
+  }
 
-	.circle {
-		width: 25vw;
-		height: 25vw;
-		font-size: 3vw;
-	}
+  #circle-proposito .circle-back,
+  #circle-metodo .circle-back {
+    font-size: 1.6vw;
+  }
 
-	#circle-proposito .circle-back,
-	#circle-metodo .circle-back {
-		font-size: 1.6vw;
-	}
+  #circle-proposito {
+    margin-right: 2vw;
+  }
 
-	#circle-proposito {
-		margin-right: 2vw;
-	}
-
-	#circle-valores {
-		margin-left: 2vw;
-	}
+  #circle-valores {
+    margin-left: 2vw;
+  }
 }
 
+/* Desktop medio: desde 900px */
 @media (min-width: 900px) {
-	#second-slide-title>h2 {
-		font-size: 6vw;
-	}
+  #second-slide-title > h2 {
+    font-size: 6vw;
+  }
 
-	.circle {
-		width: 20vw;
-		height: 20vw;
-		font-size: 2vw;
-	}
+  .circle {
+    width: 20vw;
+    height: 20vw;
+    font-size: 2vw;
+  }
 
-	#circle-proposito {
-		margin-right: 0;
-	}
+  #circle-proposito {
+    margin-right: 0;
+  }
 
-	#circle-proposito .circle-back,
-	#circle-metodo .circle-back {
-		font-size: 1.4vw;
-	}
+  #circle-proposito .circle-back,
+  #circle-metodo .circle-back {
+    font-size: 1.4vw;
+  }
 
-	#circle-valores {
-		margin-bottom: 24vw;
-		margin-left: 0;
-	}
+  #circle-valores {
+    margin-bottom: 24vw;
+    margin-left: 0;
+  }
 }
 
+/* Desktop grande: desde 1200px */
 @media (min-width: 1200px) {
-	#second-slide-title>h2 {
-		font-size: 4vw;
-	}
+  #second-slide-title > h2 {
+    font-size: 4vw;
+  }
 
-	.circle {
-		width: 15vw;
-		height: 15vw;
-		font-size: 1.2vw;
-	}
+  .circle {
+    width: 15vw;
+    height: 15vw;
+    font-size: 1.2vw;
+  }
 
-	#circle-proposito .circle-back,
-	#circle-metodo .circle-back {
-		font-size: 1vw;
-	}
+  #circle-proposito .circle-back,
+  #circle-metodo .circle-back {
+    font-size: 1vw;
+  }
 
-	#circle-valores {
-		margin-bottom: 18vw;
-	}
+  #circle-valores {
+    margin-bottom: 18vw;
+  }
 }

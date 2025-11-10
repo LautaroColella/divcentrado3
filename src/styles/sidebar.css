@@ -1,3 +1,35 @@
+.linea-destello {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background: linear-gradient(to right, #0077cc, #00cfff);
+  z-index: 102;
+  overflow: hidden;
+}
+
+.linea-destello::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.8), transparent);
+  animation: deslizar-luz 3s linear infinite;
+}
+
+@keyframes deslizar-luz {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Barra superior oculta por defecto */
 .barra-superior {
   position: fixed;
   top: -500px;
@@ -14,6 +46,7 @@
   top: 0;
 }
 
+/* Lista horizontal adaptable */
 .barra-lista {
   display: flex;
   flex-wrap: wrap;
@@ -39,4 +72,8 @@
 .barra-lista li a.activo {
   color: #333;
   border-bottom: 2px solid #0077cc;
+}
+
+main {
+  padding-top: 6rem;
 }

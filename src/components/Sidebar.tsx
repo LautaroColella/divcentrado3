@@ -23,9 +23,7 @@ export default function Sidebar() {
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      const barra = document
-        .querySelector(".barra-superior")
-        ?.getBoundingClientRect();
+      const barra = document.querySelector(".barra-superior")?.getBoundingClientRect();
       const estaSobreBarra = barra && e.clientY <= barra.bottom;
       setVisible(e.clientY < 30 || !!estaSobreBarra);
     };
@@ -44,21 +42,27 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <div className={`barra-superior ${visible ? "visible" : ""}`}>
-      <div>
-        <ul className="barra-lista">
-          {[...secciones, ...perfiles].map((item, i) => (
-            <li key={i}>
-              <Link
-                to={item.ruta}
-                className={location.pathname === item.ruta ? "activo" : ""}
-              >
-                {item.nombre}
-              </Link>
-            </li>
-          ))}
-        </ul>
+    <>
+      {/* Línea azul con destello */}
+      <div className="linea-destello" />
+
+      {/* Barra superior */}
+      <div className={`barra-superior ${visible ? "visible" : ""}`}>
+        <nav>
+          <ul className="barra-lista">
+            {[...secciones, ...perfiles].map((item, i) => (
+              <li key={i}>
+                <Link
+                  to={item.ruta}
+                  className={location.pathname === item.ruta ? "activo" : ""}
+                >
+                  {item.nombre}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
-    </div>
+    </>
   );
 }
