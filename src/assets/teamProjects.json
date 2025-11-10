@@ -19,8 +19,8 @@
       { "name": "Leonel Donnet", "github": "https://github.com/LeonelDonnet" },
       { "name": "Luisina Muller", "github": "https://github.com/luisimuller" }
     ],
-    "github_link": "https://github.com/luisimuller/TP1-Para-Entregar.git",
-    "deploy_link": "https://ifts29-frontend2025-coma-grupo1-tp1.vercel.app",
+    "github_link": "https://github.com/luisimuller/grupito-uno-front",
+    "deploy_link": "https://grupito-uno-front.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/u8BDPAS.png",
@@ -50,8 +50,8 @@
       { "name": "Eugenia Lucchelli", "github": "https://github.com/eugelu11" },
       { "name": "Román Ríos", "github": "https://github.com/romanrios" }
     ],
-    "github_link": "https://github.com/romanrios/ifts-front-tp1",
-    "deploy_link": "https://ifts-front-tp1.vercel.app",
+    "github_link": "https://github.com/romanrios/ifts-front-tp2",
+    "deploy_link": "https://ifts-front-tp2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/QNt3lct.png",
@@ -74,8 +74,8 @@
       { "name": "Manuel", "github": "https://github.com/jmgasbarro" },
       { "name": "Nicolas", "github": "https://github.com/NicolasWeibel" }
     ],
-    "github_link": "https://github.com/germanberisso/FrontendTP01",
-    "deploy_link": "https://frontend-tp-01-pink.vercel.app",
+    "github_link": "https://github.com/juandualibe/frontend-tp-02",
+    "deploy_link": "https://frontend-tp-02.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
     "screenshots": [
       "https://i.imgur.com/kJB5agf.png",
@@ -110,8 +110,8 @@
         "github": "https://github.com/rodrigochico2023"
       }
     ],
-    "github_link": "https://github.com/SchallmoserJuan/LegoDevs",
-    "deploy_link": "https://lego-devs.vercel.app/index.html",
+    "github_link": "https://github.com/SchallmoserJuan/LegoDevs2",
+    "deploy_link": "https://lego-devs2.vercel.app",
     "technologies": [
       "HTML",
       "CSS",
@@ -146,8 +146,8 @@
       { "name": "Neuyin Herrera", "github": "https://github.com/Neuyin" },
       { "name": "Romero Erick", "github": "https://github.com/Tempestblood" }
     ],
-    "github_link": "https://github.com/CariRodrigues/Frontend2025",
-    "deploy_link": "https://frontend2025-five.vercel.app",
+    "github_link": "https://github.com/eduardo-mendiola/tp2-codebolts-six",
+    "deploy_link": "https://tp2-codebolts-six.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "ChatGPT"],
     "screenshots": [
       "https://i.imgur.com/hsMJPRH.png",
@@ -173,8 +173,8 @@
       { "name": "Romina Gargano", "github": "https://github.com/RominaGG" },
       { "name": "Ignacio Toledo Roll", "github": "https://github.com/ignatole" }
     ],
-    "github_link": "https://github.com/ignatole/primera-entrega-fe",
-    "deploy_link": "https://primera-entrega-fe.vercel.app",
+    "github_link": "https://github.com/RominaGG/Segunda_entrega_FE",
+    "deploy_link": "https://segunda-entrega-fe-apq4.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
     "screenshots": [
       "https://i.imgur.com/3NOtJ6h.png",
@@ -207,8 +207,8 @@
         "github": "https://github.com/PaulaNCresto"
       }
     ],
-    "github_link": "https://github.com/fraperrone/TPG01-Front-Grupo8",
-    "deploy_link": "https://tpg-01-front-grupo8.vercel.app/index.html",
+    "github_link": "https://github.com/fraperrone/itfs29-FE-TPO2",
+    "deploy_link": "https://itfs29-fe-tpo-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/wqmy0cL.png",
@@ -233,8 +233,8 @@
       { "name": "Jose", "github": "https://github.com/josecolombotk" },
       { "name": "Estiven", "github": "https://github.com/Estivenfs" }
     ],
-    "github_link": "https://github.com/Estivenfs/desarrollo-frontend-ifts29",
-    "deploy_link": "https://grupo-9-desarrollo-frontend-ifts29.vercel.app",
+    "github_link": "https://github.com/josecolombotk/desarrollo-frontend-ifts29-2",
+    "deploy_link": "https://desarrollo-frontend-ifts29-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/bSuIkrH.png",
@@ -262,8 +262,8 @@
         "github": "https://github.com/LeandroSeoane123"
       }
     ],
-    "github_link": "https://github.com/lucre-ph/FrontEndIFTS",
-    "deploy_link": "https://front-end-ifts.vercel.app",
+    "github_link": "https://github.com/lucre-ph/reactG10",
+    "deploy_link": "https://react-g10.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/5JkhFfW.png",
@@ -288,8 +288,8 @@
       { "name": "Micaela", "github": "https://github.com/micakn" },
       { "name": "Paula", "github": "https://github.com/paulabeni" }
     ],
-    "github_link": "https://github.com/xxiicode/grupo11-front-ifts-comA",
-    "deploy_link": "https://frontg11com-aifts25.vercel.app",
+    "github_link": "https://github.com/micakn/TP2-Front-Grupo11",
+    "deploy_link": "https://tp-2-front-grupo11-rho.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
       "https://i.imgur.com/wDMBVFk.png",
@@ -313,8 +313,8 @@
       { "name": "Tomás ", "github": "https://github.com/TomasResquin" },
       { "name": "Jessica", "github": "https://github.com/Jessicaoleszuk" }
     ],
-    "github_link": "https://github.com/Ana-Galvez/TP1-FRONT-END",
-    "deploy_link": "https://tp1-front-end-grupo12.vercel.app",
+    "github_link": "https://github.com/Ana-Galvez/TP2-FRONT-END",
+    "deploy_link": "https://tp-2-front-end.vercel.app/",
     "technologies": [
       "HTML",
       "CSS",
@@ -343,8 +343,8 @@
       { "name": "Mariano", "github": "https://github.com/Mariano-Javier" },
       { "name": "Julian", "github": "https://github.com/jbenitez79" }
     ],
-    "github_link": "https://github.com/jbenitez79/DSW-grupo13",
-    "deploy_link": "https://dsw-grupo13-kappa.vercel.app",
+    "github_link": "https://github.com/lumineida/DSW-TP2-Grupo13",
+    "deploy_link": "https://dsw-tp-2-grupo13.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
     "screenshots": [
       "https://i.imgur.com/MHDjdSy.png",
@@ -378,8 +378,8 @@
       },
       { "name": "Gonzalo Villafañe", "github": "https://github.com/YBuenaGit" }
     ],
-    "github_link": "https://github.com/Lean-Aballone/TPFront_1",
-    "deploy_link": "https://tp-front-1.vercel.app",
+    "github_link": "https://github.com/Lean-Aballone/TPFront_2",
+    "deploy_link": "https://tp-front-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
       "https://i.imgur.com/efNJrDv.png",
@@ -410,8 +410,8 @@
         "github": "https://github.com/Nicolas40000"
       }
     ],
-    "github_link": "https://github.com/Gefq2021/TP1-FrontEnd-Grupo15",
-    "deploy_link": "https://grupo15-tp1.vercel.app",
+    "github_link": "https://github.com/martincaceres2/tp2-react-grupo15",
+    "deploy_link": "https://tp2-react-grupo15.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/FRsoxRC.png",
@@ -431,8 +431,8 @@
       { "name": "Aixa", "github": "https://github.com/AixHadzi" },
       { "name": "Ivanna", "github": "https://github.com/Garudine" }
     ],
-    "github_link": "https://github.com/sanavalos/dswf-tp1-grupo16",
-    "deploy_link": "https://front-reactivos.vercel.app",
+    "github_link": "https://github.com/sanavalos/dswf-tp2-grupo16",
+    "deploy_link": "https://dswf-tp2-grupo16.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
       "https://i.imgur.com/ioYL5LJ.png",
@@ -456,8 +456,8 @@
       { "name": "Belén", "github": "https://github.com/belencantarini" },
       { "name": "Damián", "github": "https://github.com/damiangdl" }
     ],
-    "github_link": "https://github.com/GabyA0714/TP_01_PROYECTO_EQUIPO_COMPLETO.git",
-    "deploy_link": "https://tp-01-proyecto-equipo-completo-seven.vercel.app",
+    "github_link": "https://github.com/GabyA0714/TP2_React_SPA_Equipo5",
+    "deploy_link": "https://tp-2-react-spa-equipo5.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
       "https://i.imgur.com/CC96NwI.png",
