@@ -43,6 +43,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                   src={src}
                   className="d-block w-100"
                   alt={`${project.title} screenshot ${index + 1}`}
+                  loading="lazy"
                   style={{
                     objectFit: "cover",
                     height: "200px",
