@@ -137,7 +137,7 @@ export default function Paola() {
 
         {/*Contenido*/}
         <div className="card__content">
-          <Section title="Apariencia">
+          <Section title="">
             <BotonModo />
           </Section>
 
