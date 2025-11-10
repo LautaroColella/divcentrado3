@@ -1,17 +1,25 @@
-/*  Fondo para mi página  */
 :global(#profile-cristian) {
-  background-image: linear-gradient(to right top,
-      #3d0404, #420418, #440726, #431035, #3d1943,
-      #352553, #263060, #003b6b, #004a71, #005561,
-      #005c3e, #205f0f);
+  background-image: linear-gradient(
+    to right top,
+    #3d0404,
+    #420418,
+    #440726,
+    #431035,
+    #3d1943,
+    #352553,
+    #263060,
+    #003b6b,
+    #004a71,
+    #005561,
+    #005c3e,
+    #205f0f
+  );
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
-
   padding: 16px 0;
 }
 
-/*  Estructura principal del perfil*/
 :global(#profile-cristian) .wrapper {
   display: flex;
   gap: 30px;
@@ -54,7 +62,6 @@
   gap: 20px;
 }
 
-/* Listas internas */
 :global(#profile-cristian) .list {
   list-style: none;
   margin: 0;
@@ -66,12 +73,10 @@
   font-weight: 500;
 }
 
-
 :global(#profile-cristian) .frase {
   margin-top: 8px;
 }
 
-/*  Media queries */
 @media (max-width: 1200px) {
   :global(#profile-cristian) .wrapper {
     max-width: 1000px;
@@ -98,5 +103,100 @@
 @media (max-width: 600px) {
   :global(#profile-cristian) .right {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ---- Sección para Redes ----- */
+
+:global(#profile-cristian) .social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Botón base: contorno blanco, fondo transparente */
+:global(#profile-cristian) .social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Íconos */
+:global(#profile-cristian) .social-btn i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto general de hover */
+:global(#profile-cristian) .social-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Animación interna tipo “halo de energía” */
+:global(#profile-cristian) .social-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* LinkedIn — azul brillante */
+:global(#profile-cristian) .social-linkedin:hover::after {
+  opacity: 1;
+  box-shadow: 0 0 30px 6px rgba(10, 102, 194, 0.8);
+  border: 2px solid #0a66c2;
+}
+
+/* GitHub — resplandor blanco */
+:global(#profile-cristian) .social-github:hover::after {
+  opacity: 1;
+  box-shadow: 0 0 30px 6px rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffffff;
+}
+
+/* Discord — violeta eléctrico */
+:global(#profile-cristian) .social-discord:hover::after {
+  opacity: 1;
+  box-shadow: 0 0 35px 8px rgba(88, 101, 242, 0.9);
+  border: 2px solid #5865f2;
+}
+
+/* Pequeña reacción al click */
+:global(#profile-cristian) .social-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  :global(#profile-cristian) .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  :global(#profile-cristian) .social-btn {
+    width: 80%;
+    justify-content: center;
   }
 }

@@ -19,17 +19,17 @@
       { "name": "Leonel Donnet", "github": "https://github.com/LeonelDonnet" },
       { "name": "Luisina Muller", "github": "https://github.com/luisimuller" }
     ],
-    "github_link": "https://github.com/luisimuller/TP1-Para-Entregar.git",
-    "deploy_link": "https://ifts29-frontend2025-coma-grupo1-tp1.vercel.app",
+    "github_link": "https://github.com/luisimuller/grupito-uno-front",
+    "deploy_link": "https://grupito-uno-front.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/u8BDPAS.png",
-      "https://i.imgur.com/LbcTirw.png",
-      "https://i.imgur.com/rzQDp8h.png",
-      "https://i.imgur.com/P4yzBWI.png",
-      "https://i.imgur.com/yqPDs2Y.png",
-      "https://i.imgur.com/W3wfpJR.png",
-      "https://i.imgur.com/sBQZuFe.png"
+      "/img/projects/1_1.png",
+      "/img/projects/1_2.png",
+      "/img/projects/1_3.png",
+      "/img/projects/1_4.png",
+      "/img/projects/1_5.png",
+      "/img/projects/1_6.png",
+      "/img/projects/1_7.png"
     ],
     "finish_date": "2025-09-21"
   },
@@ -50,17 +50,17 @@
       { "name": "Eugenia Lucchelli", "github": "https://github.com/eugelu11" },
       { "name": "Román Ríos", "github": "https://github.com/romanrios" }
     ],
-    "github_link": "https://github.com/romanrios/ifts-front-tp1",
-    "deploy_link": "https://ifts-front-tp1.vercel.app",
+    "github_link": "https://github.com/romanrios/ifts-front-tp2",
+    "deploy_link": "https://ifts-front-tp2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/QNt3lct.png",
-      "https://i.imgur.com/yI8TkYl.jpeg",
-      "https://i.imgur.com/5lOAbQC.png",
-      "https://i.imgur.com/MIvwWDR.jpeg",
-      "https://i.imgur.com/KGDWmho.png",
-      "https://i.imgur.com/Ihtl2Zj.png",
-      "https://i.imgur.com/ztnAkYW.png"
+      "/img/projects/2_1.png",
+      "/img/projects/2_2.jpeg",
+      "/img/projects/2_3.png",
+      "/img/projects/2_4.jpeg",
+      "/img/projects/2_5.png",
+      "/img/projects/2_6.png",
+      "/img/projects/2_7.png"
     ],
     "finish_date": "2025-09-20"
   },
@@ -74,19 +74,19 @@
       { "name": "Manuel", "github": "https://github.com/jmgasbarro" },
       { "name": "Nicolas", "github": "https://github.com/NicolasWeibel" }
     ],
-    "github_link": "https://github.com/germanberisso/FrontendTP01",
-    "deploy_link": "https://frontend-tp-01-pink.vercel.app",
+    "github_link": "https://github.com/juandualibe/frontend-tp-02",
+    "deploy_link": "https://frontend-tp-02.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
     "screenshots": [
-      "https://i.imgur.com/kJB5agf.png",
-      "https://i.imgur.com/NFXL2lZ.png",
-      "https://i.imgur.com/V3ZCq8X.png",
-      "https://i.imgur.com/FYUuYDo.png",
-      "https://i.imgur.com/LkEAi2F.png",
-      "https://i.imgur.com/RuBJ3mf.png",
-      "https://i.imgur.com/Ef2ftl6.png",
-      "https://i.imgur.com/fxSiCSO.png",
-      "https://i.imgur.com/6LrDrGR.png"
+      "/img/projects/3_1.png",
+      "/img/projects/3_2.png",
+      "/img/projects/3_3.png",
+      "/img/projects/3_4.png",
+      "/img/projects/3_5.png",
+      "/img/projects/3_6.png",
+      "/img/projects/3_7.png",
+      "/img/projects/3_8.png",
+      "/img/projects/3_9.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -110,8 +110,8 @@
         "github": "https://github.com/rodrigochico2023"
       }
     ],
-    "github_link": "https://github.com/SchallmoserJuan/LegoDevs",
-    "deploy_link": "https://lego-devs.vercel.app/index.html",
+    "github_link": "https://github.com/SchallmoserJuan/LegoDevs2",
+    "deploy_link": "https://lego-devs2.vercel.app",
     "technologies": [
       "HTML",
       "CSS",
@@ -120,13 +120,13 @@
       "Google Fonts"
     ],
     "screenshots": [
-      "https://i.imgur.com/bpktRj6.png",
-      "https://i.imgur.com/DhjYatX.png",
-      "https://i.imgur.com/TvPHIkO.png",
-      "https://i.imgur.com/XVW98zT.png",
-      "https://i.imgur.com/Ve3eC1g.png",
-      "https://i.imgur.com/bR09C20.png",
-      "https://i.imgur.com/biU9oIP.png"
+      "/img/projects/4_1.png",
+      "/img/projects/4_2.png",
+      "/img/projects/4_3.png",
+      "/img/projects/4_4.png",
+      "/img/projects/4_5.png",
+      "/img/projects/4_6.png",
+      "/img/projects/4_7.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -146,16 +146,16 @@
       { "name": "Neuyin Herrera", "github": "https://github.com/Neuyin" },
       { "name": "Romero Erick", "github": "https://github.com/Tempestblood" }
     ],
-    "github_link": "https://github.com/CariRodrigues/Frontend2025",
-    "deploy_link": "https://frontend2025-five.vercel.app",
+    "github_link": "https://github.com/eduardo-mendiola/tp2-codebolts-six",
+    "deploy_link": "https://tp2-codebolts-six.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "ChatGPT"],
     "screenshots": [
-      "https://i.imgur.com/hsMJPRH.png",
-      "https://i.imgur.com/QONS3dA.png",
-      "https://i.imgur.com/2NsGbZ1.jpeg",
-      "https://i.imgur.com/HVDc75w.jpeg",
-      "https://i.imgur.com/NnVMKLK.png",
-      "https://i.imgur.com/9C6a6wW.png"
+      "/img/projects/5_1.png",
+      "/img/projects/5_2.png",
+      "/img/projects/5_3.jpeg",
+      "/img/projects/5_4.jpeg",
+      "/img/projects/5_5.png",
+      "/img/projects/5_6.png"
     ],
     "finish_date": "2025-10-06"
   },
@@ -173,18 +173,18 @@
       { "name": "Romina Gargano", "github": "https://github.com/RominaGG" },
       { "name": "Ignacio Toledo Roll", "github": "https://github.com/ignatole" }
     ],
-    "github_link": "https://github.com/ignatole/primera-entrega-fe",
-    "deploy_link": "https://primera-entrega-fe.vercel.app",
+    "github_link": "https://github.com/RominaGG/Segunda_entrega_FE",
+    "deploy_link": "https://segunda-entrega-fe-apq4.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
     "screenshots": [
-      "https://i.imgur.com/3NOtJ6h.png",
-      "https://i.imgur.com/qruX254.png",
-      "https://i.imgur.com/EKBET5S.png",
-      "https://i.imgur.com/01DKIM4.png",
-      "https://i.imgur.com/VYMAqD8.png",
-      "https://i.imgur.com/o3sATmW.png",
-      "https://i.imgur.com/ibd0YDE.png",
-      "https://i.imgur.com/pF7Q0Xf.png"
+      "/img/projects/6_1.png",
+      "/img/projects/6_2.png",
+      "/img/projects/6_3.png",
+      "/img/projects/6_4.png",
+      "/img/projects/6_5.png",
+      "/img/projects/6_6.png",
+      "/img/projects/6_7.png",
+      "/img/projects/6_8.png"
     ],
     "finish_date": "2025-09-20"
   },
@@ -207,15 +207,15 @@
         "github": "https://github.com/PaulaNCresto"
       }
     ],
-    "github_link": "https://github.com/fraperrone/TPG01-Front-Grupo8",
-    "deploy_link": "https://tpg-01-front-grupo8.vercel.app/index.html",
+    "github_link": "https://github.com/fraperrone/itfs29-FE-TPO2",
+    "deploy_link": "https://itfs29-fe-tpo-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/wqmy0cL.png",
-      "https://i.imgur.com/GD9v5Dt.png",
-      "https://i.imgur.com/4QjUN43.png",
-      "https://i.imgur.com/RMtyIab.png",
-      "https://i.imgur.com/vrLl6ok.png"
+      "/img/projects/7_1.png",
+      "/img/projects/7_2.png",
+      "/img/projects/7_3.png",
+      "/img/projects/7_4.png",
+      "/img/projects/7_5.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -233,18 +233,18 @@
       { "name": "Jose", "github": "https://github.com/josecolombotk" },
       { "name": "Estiven", "github": "https://github.com/Estivenfs" }
     ],
-    "github_link": "https://github.com/Estivenfs/desarrollo-frontend-ifts29",
-    "deploy_link": "https://grupo-9-desarrollo-frontend-ifts29.vercel.app",
+    "github_link": "https://github.com/josecolombotk/desarrollo-frontend-ifts29-2",
+    "deploy_link": "https://desarrollo-frontend-ifts29-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/bSuIkrH.png",
-      "https://i.imgur.com/S2qhv0l.png",
-      "https://i.imgur.com/aZkDtsO.jpeg",
-      "https://i.imgur.com/gymbJsC.png",
-      "https://i.imgur.com/mzjW5Ob.jpeg",
-      "https://i.imgur.com/zYci8sE.png",
-      "https://i.imgur.com/wdxQUvQ.png",
-      "https://i.imgur.com/IzyReva.jpeg"
+      "/img/projects/8_1.png",
+      "/img/projects/8_2.png",
+      "/img/projects/8_3.jpeg",
+      "/img/projects/8_4.png",
+      "/img/projects/8_5.jpeg",
+      "/img/projects/8_6.png",
+      "/img/projects/8_7.png",
+      "/img/projects/8_8.jpeg"
     ],
     "finish_date": "2025-09-17"
   },
@@ -262,18 +262,18 @@
         "github": "https://github.com/LeandroSeoane123"
       }
     ],
-    "github_link": "https://github.com/lucre-ph/FrontEndIFTS",
-    "deploy_link": "https://front-end-ifts.vercel.app",
+    "github_link": "https://github.com/lucre-ph/reactG10",
+    "deploy_link": "https://react-g10.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/5JkhFfW.png",
-      "https://i.imgur.com/UFRBIWT.png",
-      "https://i.imgur.com/HLKtaqs.png",
-      "https://i.imgur.com/ttpObpJ.png",
-      "https://i.imgur.com/0Qiq62l.png",
-      "https://i.imgur.com/Faa462d.png",
-      "https://i.imgur.com/xqWOYgZ.png",
-      "https://i.imgur.com/own3Ewk.png"
+      "/img/projects/9_1.png",
+      "/img/projects/9_2.png",
+      "/img/projects/9_3.png",
+      "/img/projects/9_4.png",
+      "/img/projects/9_5.png",
+      "/img/projects/9_6.png",
+      "/img/projects/9_7.png",
+      "/img/projects/9_8.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -288,17 +288,17 @@
       { "name": "Micaela", "github": "https://github.com/micakn" },
       { "name": "Paula", "github": "https://github.com/paulabeni" }
     ],
-    "github_link": "https://github.com/xxiicode/grupo11-front-ifts-comA",
-    "deploy_link": "https://frontg11com-aifts25.vercel.app",
+    "github_link": "https://github.com/micakn/TP2-Front-Grupo11",
+    "deploy_link": "https://tp-2-front-grupo11-rho.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
-      "https://i.imgur.com/wDMBVFk.png",
-      "https://i.imgur.com/zeIWDAN.png",
-      "https://i.imgur.com/bncfJlt.jpeg",
-      "https://i.imgur.com/QpO7c3I.png",
-      "https://i.imgur.com/YL3aPpo.png",
-      "https://i.imgur.com/ZCK0pPO.png",
-      "https://i.imgur.com/RWsdRFl.png"
+      "/img/projects/10_1.png",
+      "/img/projects/10_2.png",
+      "/img/projects/10_3.jpeg",
+      "/img/projects/10_4.png",
+      "/img/projects/10_5.png",
+      "/img/projects/10_6.png",
+      "/img/projects/10_7.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -313,8 +313,8 @@
       { "name": "Tomás ", "github": "https://github.com/TomasResquin" },
       { "name": "Jessica", "github": "https://github.com/Jessicaoleszuk" }
     ],
-    "github_link": "https://github.com/Ana-Galvez/TP1-FRONT-END",
-    "deploy_link": "https://tp1-front-end-grupo12.vercel.app",
+    "github_link": "https://github.com/Ana-Galvez/TP2-FRONT-END",
+    "deploy_link": "https://tp-2-front-end.vercel.app/",
     "technologies": [
       "HTML",
       "CSS",
@@ -323,13 +323,13 @@
       "Hydra-synth"
     ],
     "screenshots": [
-      "https://i.imgur.com/F6TndpZ.png",
-      "https://i.imgur.com/hF0FJgQ.png",
-      "https://i.imgur.com/LPH7tgx.png",
-      "https://i.imgur.com/FsiNrPe.png",
-      "https://i.imgur.com/HKZe9Cs.png",
-      "https://i.imgur.com/y3hsQH1.png",
-      "https://i.imgur.com/5CPphaO.png"
+      "/img/projects/11_1.png",
+      "/img/projects/11_2.png",
+      "/img/projects/11_3.png",
+      "/img/projects/11_4.png",
+      "/img/projects/11_5.png",
+      "/img/projects/11_6.png",
+      "/img/projects/11_7.png"
     ],
     "finish_date": "2025-09-18"
   },
@@ -343,19 +343,19 @@
       { "name": "Mariano", "github": "https://github.com/Mariano-Javier" },
       { "name": "Julian", "github": "https://github.com/jbenitez79" }
     ],
-    "github_link": "https://github.com/jbenitez79/DSW-grupo13",
-    "deploy_link": "https://dsw-grupo13-kappa.vercel.app",
+    "github_link": "https://github.com/lumineida/DSW-TP2-Grupo13",
+    "deploy_link": "https://dsw-tp-2-grupo13.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts", "CSS BEM"],
     "screenshots": [
-      "https://i.imgur.com/MHDjdSy.png",
-      "https://i.imgur.com/pB5vK24.png",
-      "https://i.imgur.com/7nVWRvH.png",
-      "https://i.imgur.com/JJOKkyU.png",
-      "https://i.imgur.com/MwEW6B0.png",
-      "https://i.imgur.com/iMtlHbi.png",
-      "https://i.imgur.com/z8oaoJZ.png",
-      "https://i.imgur.com/9NiDFQx.png",
-      "https://i.imgur.com/UfY7cOV.png"
+      "/img/projects/12_1.png",
+      "/img/projects/12_2.png",
+      "/img/projects/12_3.png",
+      "/img/projects/12_4.png",
+      "/img/projects/12_5.png",
+      "/img/projects/12_6.png",
+      "/img/projects/12_7.png",
+      "/img/projects/12_8.png",
+      "/img/projects/12_9.png"
     ],
     "finish_date": "2025-09-21"
   },
@@ -378,16 +378,16 @@
       },
       { "name": "Gonzalo Villafañe", "github": "https://github.com/YBuenaGit" }
     ],
-    "github_link": "https://github.com/Lean-Aballone/TPFront_1",
-    "deploy_link": "https://tp-front-1.vercel.app",
+    "github_link": "https://github.com/Lean-Aballone/TPFront_2",
+    "deploy_link": "https://tp-front-2.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
-      "https://i.imgur.com/efNJrDv.png",
-      "https://i.imgur.com/SoKPzVA.png",
-      "https://i.imgur.com/fRmKdHG.png",
-      "https://i.imgur.com/r7iZefh.png",
-      "https://i.imgur.com/Kaqk2LO.png",
-      "https://i.imgur.com/CHdhbC0.jpeg"
+      "/img/projects/13_1.png",
+      "/img/projects/13_2.png",
+      "/img/projects/13_3.png",
+      "/img/projects/13_4.png",
+      "/img/projects/13_5.png",
+      "/img/projects/13_6.jpeg"
     ],
     "finish_date": "2025-09-24"
   },
@@ -410,13 +410,13 @@
         "github": "https://github.com/Nicolas40000"
       }
     ],
-    "github_link": "https://github.com/Gefq2021/TP1-FrontEnd-Grupo15",
-    "deploy_link": "https://grupo15-tp1.vercel.app",
+    "github_link": "https://github.com/martincaceres2/tp2-react-grupo15",
+    "deploy_link": "https://tp2-react-grupo15.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/FRsoxRC.png",
-      "https://i.imgur.com/xDCL1Go.png",
-      "https://i.imgur.com/u5O5Mg6.png"
+      "/img/projects/14_1.png",
+      "/img/projects/14_2.png",
+      "/img/projects/14_3.png"
     ],
     "finish_date": "2025-09-26"
   },
@@ -431,17 +431,17 @@
       { "name": "Aixa", "github": "https://github.com/AixHadzi" },
       { "name": "Ivanna", "github": "https://github.com/Garudine" }
     ],
-    "github_link": "https://github.com/sanavalos/dswf-tp1-grupo16",
-    "deploy_link": "https://front-reactivos.vercel.app",
+    "github_link": "https://github.com/sanavalos/dswf-tp2-grupo16",
+    "deploy_link": "https://dswf-tp2-grupo16.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/ioYL5LJ.png",
-      "https://i.imgur.com/j1StOGy.png",
-      "https://i.imgur.com/UdWtLpt.png",
-      "https://i.imgur.com/uOQm3Io.png",
-      "https://i.imgur.com/QkAUuAP.png",
-      "https://i.imgur.com/SnYEY4H.png",
-      "https://i.imgur.com/oELo2aS.png"
+      "/img/projects/15_1.png",
+      "/img/projects/15_2.png",
+      "/img/projects/15_3.png",
+      "/img/projects/15_4.png",
+      "/img/projects/15_5.png",
+      "/img/projects/15_6.png",
+      "/img/projects/15_7.png"
     ],
     "finish_date": "2025-09-27"
   },
@@ -456,13 +456,13 @@
       { "name": "Belén", "github": "https://github.com/belencantarini" },
       { "name": "Damián", "github": "https://github.com/damiangdl" }
     ],
-    "github_link": "https://github.com/GabyA0714/TP_01_PROYECTO_EQUIPO_COMPLETO.git",
-    "deploy_link": "https://tp-01-proyecto-equipo-completo-seven.vercel.app",
+    "github_link": "https://github.com/GabyA0714/TP2_React_SPA_Equipo5",
+    "deploy_link": "https://tp-2-react-spa-equipo5.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "screenshots": [
-      "https://i.imgur.com/CC96NwI.png",
-      "https://i.imgur.com/LYuE9zj.png",
-      "https://i.imgur.com/CRV43yC.png"
+      "/img/projects/16_1.png",
+      "/img/projects/16_2.png",
+      "/img/projects/16_3.png"
     ],
     "finish_date": "2025-09-22"
   },
@@ -478,10 +478,10 @@
     "deploy_link": "https://tp1-grupo18-guerra-briceno.vercel.app",
     "technologies": ["HTML", "CSS", "JavaScript", "Google Fonts"],
     "screenshots": [
-      "https://i.imgur.com/qqJ2mBP.png",
-      "https://i.imgur.com/xbarJnG.png",
-      "https://i.imgur.com/jFgzFVB.png",
-      "https://i.imgur.com/TUSrsDm.png"
+      "/img/projects/17_1.png",
+      "/img/projects/17_2.png",
+      "/img/projects/17_3.png",
+      "/img/projects/17_4.png"
     ],
     "finish_date": "2025-09-26"
   }

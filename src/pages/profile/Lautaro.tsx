@@ -91,7 +91,10 @@ const Lautaro: React.FC = () => {
   ];
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
+    <div
+      className="d-flex flex-column justify-content-center align-items-center min-vh-100"
+      id="mybody"
+    >
       <Sidebar />
       <PageTitle title="Lautaro | DIVCENTRADO" />
       <div

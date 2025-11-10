@@ -30,6 +30,9 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
   const [loading, setLoading] = useState(false);
   const [related, setRelated] = useState<RelatedMovie[]>([]);
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5;
+
   useEffect(() => {
     if (!movieId) return;
     if (!API_KEY) {
@@ -52,7 +55,8 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
           `${BASE_URL}/movie/${movieId}/recommendations?api_key=${API_KEY}&language=es-MX`
         );
         const relatedData = await relatedRes.json();
-        setRelated((relatedData.results || []).slice(0, 6));
+        setRelated(relatedData.results || []);
+        setCurrentPage(1);
       } catch (error) {
         console.error("Error obteniendo la pelicula:", error);
       } finally {
@@ -65,6 +69,18 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
 
   if (!show) return null;
   if (!API_KEY) return null;
+
+  const totalPages = Math.ceil(related.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentItems = related.slice(startIndex, startIndex + itemsPerPage);
+
+  const goToNext = () => {
+    if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
+  };
+
+  const goToPrev = () => {
+    if (currentPage > 1) setCurrentPage((prev) => prev - 1);
+  };
 
   return (
     <div
@@ -117,30 +133,72 @@ const MovieModal: React.FC<MovieModalProps> = ({ movieId, show, onClose }) => {
               </div>
             )}
             {related.length > 0 && (
-              <div className="related-movies mt-4">
-                <h5 className="text-center">Peliculas relacionadas</h5>
-                <div className="d-flex flex-wrap gap-2 justify-content-center">
-                  {related.map((rel) => (
+              <div className="related-movies mt-4 text-center">
+                <h5>Películas relacionadas</h5>
+
+                <div className="d-flex justify-content-center align-items-center flex-wrap gap-3">
+                  <button
+                    className="btn btn-outline-secondary btn-sm d-none d-md-block"
+                    onClick={goToPrev}
+                    disabled={currentPage === 1}
+                  >
+                    ◀
+                  </button>
+
+                  {currentItems.map((rel) => (
                     <div
                       key={rel.id}
-                      style={{ width: "100px" }}
-                      className="text-center"
+                      className="text-center d-flex flex-column align-items-center"
+                      style={{
+                        width: "110px",
+                        minHeight: "220px",
+                        flex: "0 0 auto",
+                      }}
                     >
                       {rel.poster_path ? (
                         <img
                           src={`https://image.tmdb.org/t/p/w200${rel.poster_path}`}
                           alt={rel.title}
-                          className="img-fluid rounded mb-1"
+                          className="img-fluid rounded mb-2"
+                          style={{
+                            height: "150px",
+                            width: "100px",
+                            objectFit: "cover",
+                          }}
                         />
                       ) : (
                         <div
-                          className="bg-secondary rounded mb-1"
-                          style={{ height: "150px" }}
+                          className="bg-secondary rounded mb-2"
+                          style={{ height: "150px", width: "100px" }}
                         ></div>
                       )}
-                      <small>{rel.title}</small>
+                      <small
+                        style={{
+                          wordWrap: "break-word",
+                          whiteSpace: "normal",
+                          lineHeight: "1.1",
+                          minHeight: "3em",
+                          maxWidth: "100px",
+                        }}
+                      >
+                        {rel.title}
+                      </small>
                     </div>
                   ))}
+
+                  <button
+                    className="btn btn-outline-secondary btn-sm d-none d-md-block"
+                    onClick={goToNext}
+                    disabled={currentPage === totalPages}
+                  >
+                    ▶
+                  </button>
+                </div>
+
+                <div className="mt-2 d-none d-md-block">
+                  <small>
+                    Página {currentPage} de {totalPages}
+                  </small>
                 </div>
               </div>
             )}

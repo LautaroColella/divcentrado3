@@ -30,6 +30,18 @@ const logData = [
   },
  
   {
+    date: "Bitácora 5 – 09/10/2025",
+    content: [
+      "Se llevó a cabo el margeo de las paginas individuales a la rama principal (DEVELOPMENT), se ajustaron pequeños errores y ",
+    ],
+  },
+  {
+    date: "Bitácora 5 – 27/10/2025",
+    content: [
+      "Se llevó a cabo la planificación para abordar el nuevo objetivo del proyecto, resultando en una división y asignación de tareas entre el equipo. Durante esta sesión, se definió se determinaron las implementaciones específicas a realizar, se estableció que se ejecutarán los puntos 1, 2, 3, 6 y 7.",
+    ],
+  },
+  {
     date: "Bitácora 4 – 19/09/2025",
     content: [
       "Se concretó el merge de las páginas individuales en la rama principal (DEVELOPMENT). Durante esta etapa se reorganizaron las carpetas del proyecto para mejorar la estructura general, separando componentes, estilos, imágenes y scripts de manera lógica y ordenada.",

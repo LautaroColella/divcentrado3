@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";
 import "../../styles/profiles/santi.css";
+import Redes from "../../components/Redes";
+
 
 export default function Santiago() {
   useEffect(() => {
@@ -288,7 +290,19 @@ export default function Santiago() {
             </ul>
           </article>
         </section>
+
+        <section>
+          <h3>Contactame</h3>
+          <Redes
+            github="https://github.com/saos1739"
+            linkedin="https://www.linkedin.com/in/rojasantiagoa/"
+            discord="https://discord.com/users/353622961338712064"
+          />
+        </section>
+
+        
       </main>
+
 
       <div id="particles-js"></div>
     </div>
