@@ -1,7 +1,7 @@
 import React from "react";
 
 import FlipCard from "../../components/CardCristian/FlipCard";
-import Redes from "../../components/Redes";
+import RedesCristian from "../../components/CardCristian/RedesCristian";
 import PageTitle from "../../components/PageTitle";
 import Sidebar from "../../components/Sidebar";
 import styles from "../../styles/profiles/cristian/cristian.module.css";
@@ -26,9 +26,7 @@ export default function Cristian() {
       <PageTitle title="Cristian | DIVCENTRADO" />
       <Sidebar />
 
-      {/* Wrapper de dos columnas */}
       <section className={styles.wrapper}>
-        {/* Bloque izquierdo */}
         <aside className={styles.left}>
           <div className={styles.fotoBox}>
             <img
@@ -51,7 +49,6 @@ export default function Cristian() {
           />
         </aside>
 
-        {/* Bloque derecho */}
         <section className={styles.right}>
           <FlipCard title="Habilidades">
             <ul className={styles.list}>
@@ -81,11 +78,7 @@ export default function Cristian() {
           </FlipCard>
 
           <FlipCard title="Mis Redes">
-            <Redes
-              linkedin="https://www.linkedin.com/in/humberto-cristian-paez/"
-              github="https://github.com/crishpaez"
-              discord="https://discord.com/users/nsp1455" 
-            />
+            <RedesCristian />
           </FlipCard>
         </section>
       </section>

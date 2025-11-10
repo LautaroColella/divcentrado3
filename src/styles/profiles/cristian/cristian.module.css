@@ -116,7 +116,6 @@
   margin-top: 1.5rem;
 }
 
-/* Botón base: contorno blanco, fondo transparente */
 :global(#profile-cristian) .social-btn {
   display: inline-flex;
   align-items: center;
@@ -137,13 +136,11 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-/* Íconos */
 :global(#profile-cristian) .social-btn i {
   font-size: 1.2rem;
   transition: transform 0.3s ease;
 }
 
-/* Efecto general de hover */
 :global(#profile-cristian) .social-btn:hover {
   transform: translateY(-3px) scale(1.05);
   color: #ffffff;
@@ -151,7 +148,6 @@
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
-/* Animación interna tipo “halo de energía” */
 :global(#profile-cristian) .social-btn::after {
   content: "";
   position: absolute;
@@ -161,34 +157,29 @@
   transition: opacity 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* LinkedIn — azul brillante */
 :global(#profile-cristian) .social-linkedin:hover::after {
   opacity: 1;
   box-shadow: 0 0 30px 6px rgba(10, 102, 194, 0.8);
   border: 2px solid #0a66c2;
 }
 
-/* GitHub — resplandor blanco */
 :global(#profile-cristian) .social-github:hover::after {
   opacity: 1;
   box-shadow: 0 0 30px 6px rgba(255, 255, 255, 0.9);
   border: 2px solid #ffffff;
 }
 
-/* Discord — violeta eléctrico */
 :global(#profile-cristian) .social-discord:hover::after {
   opacity: 1;
   box-shadow: 0 0 35px 8px rgba(88, 101, 242, 0.9);
   border: 2px solid #5865f2;
 }
 
-/* Pequeña reacción al click */
 :global(#profile-cristian) .social-btn:active {
   transform: scale(0.95);
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
 }
 
-/* Responsive */
 @media (max-width: 500px) {
   :global(#profile-cristian) .social-links {
     flex-direction: column;

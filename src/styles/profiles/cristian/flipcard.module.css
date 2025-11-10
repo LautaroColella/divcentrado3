@@ -13,7 +13,7 @@
   transition: transform 0.6s;
   transform-style: preserve-3d;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 :global(#profile-cristian) .flipped .flipInner {
@@ -38,16 +38,14 @@
 }
 
 :global(#profile-cristian) .flipBack {
-  background: rgba(0, 0, 0, 0.55);
+  background: #020814;
   color: #fff;
   transform: rotateY(180deg);
   flex-direction: column;
   overflow: hidden;
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
-
 
 :global(#profile-cristian) .flipBack img {
   max-width: 100%;
