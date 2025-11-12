@@ -3,19 +3,19 @@ import "../styles/bitacora.css";
 
 const logData = [
   {
-    date: "Bitácora 7 – 10/10/2025",
+    date: "Bitácora 9 – 10/11/2025",
     content: [
       "Se llevó a cabo el merge del proyecto y se llevaron a cabo arreglos menores",
     ],
   },
   {
-    date: "Bitácora 6 – 27/10/2025",
+    date: "Bitácora 8 – 27/10/2025",
     content: [
       "Se llevó a cabo la planificación para abordar el nuevo objetivo del proyecto, resultando en una división y asignación de tareas entre el equipo. Durante esta sesión, se definió se determinaron las implementaciones específicas a realizar, se estableció que se ejecutarán los puntos 1, 2, 3, 6 y 7.",
     ],
   },
   {
-    date: "Bitácora 5 – 15/10/2025",
+    date: "Bitácora 7 – 15/10/2025",
     content: [
       "Se dio inicio a la segunda entrega del proyecto, planificando y distribuyendo las nuevas tareas entre los miembros del equipo.",
     ],
@@ -30,13 +30,13 @@ const logData = [
   },
  
   {
-    date: "Bitácora 5 – 09/10/2025",
+    date: "Bitácora 6 – 09/10/2025",
     content: [
       "Se llevó a cabo el margeo de las paginas individuales a la rama principal (DEVELOPMENT), se ajustaron pequeños errores y ",
     ],
   },
   {
-    date: "Bitácora 5 – 27/10/2025",
+    date: "Bitácora 5 – 27/09/2025",
     content: [
       "Se llevó a cabo la planificación para abordar el nuevo objetivo del proyecto, resultando en una división y asignación de tareas entre el equipo. Durante esta sesión, se definió se determinaron las implementaciones específicas a realizar, se estableció que se ejecutarán los puntos 1, 2, 3, 6 y 7.",
     ],
