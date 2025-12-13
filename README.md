@@ -14,7 +14,7 @@
 ## 🚀 Proyecto Desplegado
 
 Se hizo el deploy en Vercel con el siguiente link:
-**[DIVCENTRADO](https://divcentrado2.vercel.app/)**
+**[DIVCENTRADO](https://divcentrado3.vercel.app/)**
 
 ---
 
