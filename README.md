@@ -18,8 +18,9 @@ Se hizo el deploy en Vercel con el siguiente link:
 
 ## 📄 Descripción
 
-Somos un grupo de estudiantes del Instituto de Formación Técnica Superior N° 29 que queremos darnos a conocer para, en un futuro, conseguir un trabajo en empresas IT.
-En este proyecto vas a conocernos más a fondo: quiénes somos, nuestros gustos y habilidades, y qué hacemos en nuestros tiempos libres.
+Se trata de una aplicación web frontend desarrollada en React, creada con el objetivo de darse a conocer profesionalmente y proyectarse hacia una futura inserción laboral en el sector IT.
+La web funciona como una presentación personal y grupal, donde se muestra información detallada sobre cada integrante: quiénes son, cuáles son sus intereses, sus habilidades técnicas y personales, y las actividades que realizan en su tiempo libre. A través de una interfaz moderna e interactiva, el proyecto busca reflejar tanto el perfil profesional como el lado humano del equipo.
+Este desarrollo no solo sirve como carta de presentación frente a empresas tecnológicas, sino también como una instancia de aprendizaje práctico, aplicando conocimientos de desarrollo frontend con React, diseño de interfaces y trabajo colaborativo.
 
 ---
 
