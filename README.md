@@ -7,8 +7,6 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![TSParticles](https://img.shields.io/badge/TSParticles-000000?style=for-the-badge&logo=particles.js&logoColor=white)
 
-> 💡 **Nota:** Este proyecto es un trabajo práctico en desarrollo. Las funcionalidades se irán ampliando progresivamente a medida que se agreguen más trabajos prácticos.
-
 ---
 
 ## 🚀 Proyecto Desplegado
