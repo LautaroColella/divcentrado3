@@ -9,14 +9,14 @@
 
 ---
 
-## 🚀 Proyecto Desplegado
+## Proyecto desplegado
 
 Se hizo el deploy en Vercel con el siguiente link:
 **[DIVCENTRADO](https://divcentrado3.vercel.app/)**
 
 ---
 
-## 📄 Descripción
+## Descripción
 
 Se trata de una aplicación web frontend desarrollada en React, creada con el objetivo de darse a conocer profesionalmente y proyectarse hacia una futura inserción laboral en el sector IT.
 La web funciona como una presentación personal y grupal, donde se muestra información detallada sobre cada integrante: quiénes son, cuáles son sus intereses, sus habilidades técnicas y personales, y las actividades que realizan en su tiempo libre. A través de una interfaz moderna e interactiva, el proyecto busca reflejar tanto el perfil profesional como el lado humano del equipo.
@@ -24,7 +24,7 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías usadas
 
 * **Framework:** React 18+
 * **Lenguaje:** TypeScript
@@ -36,7 +36,7 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
 
 ---
 
-## ⚙️ Instalación y Uso
+## Instalación y uso
 
 ### Prerrequisitos
 * Node.js (versión 18 o superior)
@@ -44,22 +44,22 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
 
 ### Pasos
 
-1.  **Clonar el repositorio:**
+1.  **Clonar el repositorio**
     ```bash
     git clone https://github.com/LautaroColella/divcentrado2.git
     ```
 
-2.  **Navegar al directorio del proyecto:**
+2.  **Navegar al directorio del proyecto**
     ```bash
     cd divcentrado2
     ```
 
-3.  **Instalar dependencias:**
+3.  **Instalar dependencias**
     ```bash
     npm install
     ```
 
-4.  **Ejecutar en modo de desarrollo:**
+4.  **Ejecutar en modo de desarrollo**
     ```bash
     npm run dev
     ```
@@ -67,22 +67,22 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
 
 ### Otros Scripts
 
-* **Crear build de producción:**
+* **Crear build de producción**
     ```bash
     npm run build
     ```
-* **Previsualizar el build:**
+* **Previsualizar el build**
     ```bash
     npm run preview
     ```
-* **Ejecutar el linter:**
+* **Ejecutar el linter**
     ```bash
     npm run lint
     ```
 
 ---
 
-## ✨ Funcionalidades Implementadas
+## Funcionalidades implementadas
 
 * **Carrusel Principal:** Componente `CarouselWrapper` que funciona como contenedor principal para navegar por las secciones.
 * **Componentes Interactivos:**
@@ -98,7 +98,7 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del proyecto
 
 ```
 src/
@@ -136,12 +136,12 @@ src/
 ├── main.tsx           # Punto de entrada de la aplicación
 └── router.tsx         # Configuración de rutas
 ```
+
 ---
 
 ## 🌳 Diagrama de arbol de renderizado 
 
 ![Diagrama de arbol](./src/assets/img/ArbolDeRenderizadoyRutas.drawio.png)
-
 
 ## Estructura de Archivos 
 
@@ -149,48 +149,9 @@ src/
 
 ---
 
-## Redes antes 
+## Preview
 
-
-Decidimos como complemento agregar botones que lleven a un medio de contacto como linkedin, Github o discord (ejemplo en pagina de Santiago) 
-
-![Redes antes](./src/assets/img/RedesAntes.jpeg)
-
-
-## 🆕 Redes Despues
-![Redes Despues](./src/assets/img/RedesDespues.jpeg)
-
----
-
-## SideBar antes
-Nos dimos cuenta que le faltaba algun tipo de indentificador para la sidebar ya que no se veia, asi que decidimos agregar una barra para que se vea
-
-![sidebar antes](./src/assets/img/sidebarAntes.png)
-
-## 🆕 SideBar Despues
-
-![sidebar despues](./src/assets/img/sidebarDespues.png)
-
----
-
-## MediaQuery Antes
-
-Se ajustaron los media query para que se tenga una mejor vista en Mobile 
-
-![antes media query](./src/assets/img/mediaqueryAntes.png)
-
-## 🆕 MediaQuery Despues
-
-![Mejora mediaQuery](./src/assets/img/mediaqueryDespues.png)
-
----
-
-## Equipos antes
-
-Se realizo una mejora en la zona de Proyectos de los equipos, agregando un boton 'ORDENAR POR' que filtra los proyectos por fecha, nombre o equipo
-
-![Equipos antes](./src/assets/img/equiposAntes1.png)
-
-## 🆕 Equipos Despues
-
-![Equipos Despues](./src/assets/img/equiposDespues2.png)
+![Redes](./src/assets/img/RedesDespues.jpeg)
+![Sidebar](./src/assets/img/sidebarDespues.png)
+![MediaQuery](./src/assets/img/mediaqueryDespues.png)
+![Equipos](./src/assets/img/equiposDespues2.png)
