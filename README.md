@@ -1,4 +1,4 @@
-# 🖥️ DIVCENTRADO 💻
+# DIVCENTRADO
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -11,15 +11,16 @@
 
 ## Proyecto desplegado
 
-Se hizo el deploy en Vercel con el siguiente link:
-**[DIVCENTRADO](https://divcentrado3.vercel.app/)**
+Se hizo el deploy en Vercel <https://divcentrado3.vercel.app>
 
 ---
 
 ## Descripción
 
 Se trata de una aplicación web frontend desarrollada en React, creada con el objetivo de darse a conocer profesionalmente y proyectarse hacia una futura inserción laboral en el sector IT.
+
 La web funciona como una presentación personal y grupal, donde se muestra información detallada sobre cada integrante: quiénes son, cuáles son sus intereses, sus habilidades técnicas y personales, y las actividades que realizan en su tiempo libre. A través de una interfaz moderna e interactiva, el proyecto busca reflejar tanto el perfil profesional como el lado humano del equipo.
+
 Este desarrollo no solo sirve como carta de presentación frente a empresas tecnológicas, sino también como una instancia de aprendizaje práctico, aplicando conocimientos de desarrollo frontend con React, diseño de interfaces y trabajo colaborativo.
 
 ---
@@ -65,7 +66,7 @@ Este desarrollo no solo sirve como carta de presentación frente a empresas tecn
     ```
     La aplicación estará disponible en la URL `http://localhost:5173`
 
-### Otros Scripts
+### Otros scripts
 
 * **Crear build de producción**
     ```bash
@@ -139,7 +140,7 @@ src/
 
 ---
 
-## 🌳 Diagrama de arbol de renderizado 
+## Diagrama de arbol de renderizado 
 
 ![Diagrama de arbol](./src/assets/img/ArbolDeRenderizadoyRutas.drawio.png)
 
@@ -153,5 +154,5 @@ src/
 
 ![Redes](./src/assets/img/RedesDespues.jpeg)
 ![Sidebar](./src/assets/img/sidebarDespues.png)
-![MediaQuery](./src/assets/img/mediaqueryDespues.png)
 ![Equipos](./src/assets/img/equiposDespues2.png)
+![MediaQuery](./src/assets/img/mediaqueryDespues.png)
